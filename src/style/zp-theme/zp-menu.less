@@ -1,0 +1,49 @@
+// Custom horizontal menu
+.menu-border-bottom {
+  content: "";
+  background: #1890ff;
+  width: 40%;
+  position: absolute;
+  bottom: 12px;
+  left: 30%;
+  height: 4px;
+  border-radius: 1px;
+}
+.warranty-e-theme {
+  &.ant-menu-horizontal {
+    > .ant-menu-item,
+    > .ant-menu-submenu {
+      border: 0;
+      &:hover,
+      &-active,
+      &-open,
+      &-selected {
+        border: 0;
+      }
+      &-active a {
+        &::after {
+          .menu-border-bottom;
+        }
+      }
+    }
+
+    > .ant-menu-item {
+      a {
+        &:hover {
+        }
+        &::before {
+        }
+      }
+      &-selected a {
+        border: 0;
+        &::after {
+          .menu-border-bottom;
+        }
+      }
+    }
+
+    &::after {
+    }
+  }
+}
+

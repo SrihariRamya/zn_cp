@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" id="favicon" href="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,viewport-fit=cover,user-scalable=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Admin Panel" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "%REACT_APP_GOOGLE_TAG_MANAGER_ID%");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <!-- whatcx -->
+    <script
+      defer
+      src="https://widget.whatcx.com/widget.js"
+      id="whatcx-widget-script"
+      data-id="63f4bc5c134e0bad29124f7a"
+      data-nonce="35IDR9TUDY5NQ3EWOKIKN_1676619524173_e6ace26cbabf15b51eafac273274134720efca41a234dfb1b39d8e15e9e6f995"
+    ></script>
+    <link href="https://widget.whatcx.com/widget.css" rel="stylesheet" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Admin Panel</title>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        title="ZupainTagManager"
+        src="https://www.googletagmanager.com/ns.html?id=%REACT_APP_GOOGLE_TAG_MANAGER_ID%"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "933396674364682",
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: "v17.0",
+        });
+
+        // Broadcast an event when FB object is ready
+        // var fbInitEvent = new Event('FBObjectReady');
+        // document.dispatchEvent(fbInitEvent);
+      };
+
+      // (function (d, s, id) {
+      //   var js, fjs = d.getElementsByTagName(s)[0];
+      //   if (d.getElementById(id)) { return; }
+      //   js = d.createElement(s); js.id = id;
+      //   js.src = "https://connect.facebook.net/en_US/sdk.js";
+      //   fjs.parentNode.insertBefore(js, fjs);
+      // }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0&appId=908664733770624&autoLogAppEvents=1" nonce="PBr7jRzv"></script> -->
+    <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script> -->
+
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="https://sdk.cc-embed.adobe.com/v2/CCEverywhere.js"></script>
+    <script>
+      (async () => {
+        window.ccEverywhere = await window.CCEverywhere.initialize({
+          clientId: "875e10c7265d4c64aa285e816bd39768",
+          appName: "zupain",
+          appVersion: { major: 1, minor: 0 },
+          platformCategory: "web",
+          redirectUri: "https://www.zupain.com/",
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,771 @@
+@primary-text: "Nunito", sans-serif;
+@secondary-text: "Montserrat",sans-serif;
+
+.coupon-tag {
+    box-shadow: 0px 2px 15px 0px rgba(11, 61, 96, 0.10);
+    border-radius: 10px;
+    fill: var(--White, #FFF);
+    stroke-width: 0.25px;
+    stroke: var(--Grey, #CCC);
+    width: 360px;
+    height: 74px;
+    cursor: pointer;   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: @primary-text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--Black, #222);
+    font-weight: 700;
+     &:hover, 
+     &:focus  {
+      color: var(--Black, #222);
+     }
+  }
+  
+  .tag-col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .coupon-modal {
+    height: 420px !important;
+    width: 400px !important;
+    border-radius: 15px;
+    background: var(--White, #FFF);    
+    .ant-modal-title {
+      color: var(--Black, #222);
+      font-family: @primary-text;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding: 0px !important;
+      margin-left: 25px;
+    }
+    .ant-modal-content {
+      padding: 20px 0px;
+     }
+    .anticon svg {
+     color: #FF0000 !important;
+     font-size: 18px;
+    }    
+  }
+
+  .add-coupon-btn {
+    .ant-btn-primary {
+      background: #27285C !important;
+      border-radius: 5px !important;
+      color: #FFFFFF;
+    }
+  }
+  
+  
+  .coupon-form-modal {
+    width: 663px !important;
+    height: 700px !important;
+    background: #FFFFFF;
+    border: 1px solid #27285C;
+    border-radius: 10px;
+    .ant-modal-close-x .ant-modal-close-icon svg {
+      stroke-width: 4px !important;
+      stroke-width: 50px !important;
+      font-size: 18px;
+      color: #F84141 !important;
+    }
+    .ant-modal-title {
+      color: #27285C;  
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .ant-modal-content {
+      box-shadow: none !important;
+    }
+    .ant-form-item-label {
+      color: rgba(34, 34, 34, 0.50);
+      font-family: @primary-text;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .ant-form-item-label > label {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000 !important;
+      font-style: normal;
+    }
+    .ant-input {
+      border-radius: 5px !important;
+      border-color:  #C4C4C4;
+    }
+    .ant-input-number-input {
+      border-radius: 5px !important;
+      border-color:  #C4C4C4;
+    }
+    .ant-picker {
+      border-radius: 5px !important;
+      border-color:  #C4C4C4;
+    }
+    .ant-switch {
+      background: #F84141 !important;
+    }
+    .ant-switch-checked {
+      background-color: #35c759 !important;
+    }
+    .ant-input-number {
+      border-radius: 5px !important;
+      border-color:  #C4C4C4;
+    }
+    .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      color: #F84141;
+    }
+    .ant-select-focused {
+      background: #FFFFFF;
+      border: 1px solid #C4C4C4;
+      border-radius: 8px;
+      color: #27285C;
+    }
+    .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+      background-color:#C4C4C4;
+    }
+    .ant-picker-panel-container {
+      overflow: hidden;
+      vertical-align: top;
+      background: #fff;
+      border-radius: 2px;
+      box-shadow: 0 3px 6px -4px #C4C4C4;
+   }
+   .ant-form-item-explain.ant-form-item-explain-error {
+     color: #F84141;
+     font-weight: 900;
+   }
+   .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+     border-radius: 5px !important;
+     border: 1px solid #C4C4C4 !important;
+     height: auto !important;
+   }
+   .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner{
+     background:#27285C !important;
+     color:#fff;
+   }
+  }
+
+.coupon-radio-btn {
+  .ant-radio-wrapper {
+    color: var(--CTA, #0B3D60);
+    font-family: @primary-text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .ant-radio-inner::after {
+    background-color: #0B3D60 !important;
+  }
+  .ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    border-color: #0B3D60;
+    background-color: #FFF;
+  }
+  .ant-radio-wrapper .ant-radio-inner::after {
+    width: 30px;
+    height: 30px;
+    margin-block-start: -15px;
+    margin-inline-start: -15px
+  }
+}
+
+.discount-type {
+  top: 8px;
+  height: 40px; 
+  border-radius: 5px !important;   
+  .ant-input-number {
+    height: 39px; 
+  }
+}
+
+.coupon-image {
+  .ant-upload.ant-upload-select-picture-card {
+    background: #FFFFFF;
+    border: 2px dashed rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 131px;
+    height: 127px;
+    
+  } 
+  .anticon-plus {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .ant-upload {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+  } 
+  .ant-upload-select,.ant-upload-wrapper {
+    width: 165px !important;
+    height: 165px !important;
+  }
+}
+
+.mt-2p {
+  margin-top: 2px;
+}
+
+.coupon-form-btns {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  .ant-btn-primary {
+    border-radius: 8px;
+    background: var(--CTA, #0B3D60);
+    color: #FFFFFF;
+  }
+  .ant-btn {
+    font-weight: 600 !important;
+    text-transform: capitalize;
+    width: 93px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .ant-btn-default {
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    background: #FFF;
+  }
+  .ant-space-item {
+    margin-right: 14px !important;
+  }
+}
+
+.image-text {
+  font-size: 10px !important;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.coupon-table {
+  .ant-table-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #27285C;
+    border-radius: 10px;
+    padding: 2px;
+  }
+  .ant-table {
+    background: #FFFFFF;
+    border-radius: 10px;
+     color: #27285C !important;
+  }
+  .ant-table-column-title{
+    color: #27285C !important;
+  }
+  .ant-table-thead > tr > th, .ant-table-thead > tr > td {
+    color: #27285C !important;
+    background: #FFFFFF !important ;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    .anticon svg {
+      color: #000000; 
+    }
+  }
+  .ant-table-tbody > tr > td {
+    padding: 12px 16px
+  }
+  .ant-table-filter-trigger-container-open {
+    background: #FFFFFF !important;   
+  }
+  .ant-pagination-prev {
+    color: #000000;
+    .anticon-left {
+      font-size: 12px;
+    }
+  } 
+  .ant-pagination-next {
+    color: #000000;
+    .anticon-right {
+      font-size: 12px;
+    }
+  }
+  .ant-pagination-item-active {
+    background: #27285C !important;
+    border-radius: 50% !important;
+  }
+  .ant-pagination-item {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .ant-table tbody > tr > td {
+    color: #000000;
+  }
+  .ant-pagination-options-size-changer.ant-select {
+    display: none;
+    width: auto;
+  }
+}
+
+.coupon-title {
+  .ant-typography {
+    color: #222;
+    font-family: @primary-text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .a {
+    fill: #222 !important;
+  }  
+}
+.coupons-add-btn {
+  .ant-btn-primary {
+    border-radius: 8px;
+    background: var(--CTA, #0B3D60);
+    color: var(--ffffff, #FFF);
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+.coupon-search {
+  border-radius: 8px !important;
+  border: 1px solid #222;
+  background: #FFF;
+}
+
+.coupon-status {
+  .ant-switch {
+    background: #F84141 !important;
+  }
+  .ant-switch-checked {
+    background-color: #35c759 !important;
+  }
+}
+
+.edit-icon {
+  color:#F84141;
+  background: #FFFFFF; 
+}
+
+.delete-coupon-icon {
+  background: #FFFFFF ;
+  color: #34E545
+}
+
+.discount-input {
+  bottom: 13px;
+}
+
+.mb-10p {
+  margin-bottom: 10px;
+}
+
+.product-select {
+  .ant-select-selector {
+    height: auto !important;
+  }
+}
+
+.range-date-pick {
+  .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner {
+    background:#27285C !important;
+    color:#fff;
+  }
+}
+
+@media screen and (max-width: 431px) and (min-width: 320px) {
+  .coupon-radio-btn {
+    flex-direction: row !important;
+   .ant-form-vertical .ant-form-item {
+     flex-direction: row !important;
+   }
+  }
+  .coupon-mobile-responsive{
+    justify-content: space-between;
+  }
+  .coupon-tag {
+    text-align: center;
+    white-space: pre-line;
+  }
+}
+.custom-coupon-card {
+  position: relative;
+  border-radius: 10px; 
+  overflow: hidden;
+  height: 198px;
+  fill: var(--White, #FFF);
+  stroke-width: 0.25px;
+  stroke: var(--Grey, #CCC);
+  filter: drop-shadow(0px 2px 15px rgba(11, 61, 96, 0.20));
+  .ant-card-body {
+    padding: 14px;
+  }
+  .ant-divider {
+   border: 1px dashed var(--Grey, #CCC);
+  }
+}
+.custom-coupon-card:before,
+.custom-coupon-card:after {
+  content: '';
+  position: absolute;
+  width: 25px; 
+  height: 25px; 
+  fill: var(--White, #FFF);
+  stroke-width: 0.25px;
+  stroke: var(--Grey, #CCC);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(80%);
+  z-index: 1;
+}
+
+.custom-coupon-card:before {
+  left: -6px;
+}
+
+.custom-coupon-card:after {
+  right: -6px; 
+}
+
+.coupon-heading {
+  color: var(--Black, #222);
+  font-family: @primary-text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.coupon-typography {
+  color: var(--Black, #222);
+  font-family: @primary-text;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.grey-text {
+  color: rgba(34, 34, 34, 0.50);
+}
+
+.share-col {
+  margin-top: 3px;
+  left: 18px;
+}
+
+.b-6p {
+  bottom: 6px
+}
+
+.coupon-time {
+  height: 40px;
+}
+
+.coupon-price {
+  color: var(--CTA, #0B3D60);
+  font-family: @secondary-text;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.red-clr {
+  color: #F84141 !important;
+}
+
+.coupon-type-label {
+  color: var(--Black, #222);
+  font-family: @primary-text;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.coupon-description {
+  color: rgba(34, 34, 34, 0.50);
+  font-family: @primary-text;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.coupon-form-title {
+  color: #222;
+  font-family: @primary-text;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.coupon-desc {
+  .ant-input:focus, 
+  .ant-input:hover  {
+    border-color: 1px solid var(--CTA, #0B3D60) !important;
+  }
+  .ant-input {
+    border-radius: 8px;
+    border: 0.5px solid var(--GREY, #CCC);
+    background: #FFF;
+  }
+}
+
+.ant-upload:hover {
+  border-color: 1px solid var(--CTA, #0B3D60) !important;
+}
+
+.ant-input:focus, 
+.ant-input:hover  {
+  border-color: 1px solid var(--CTA, #0B3D60) !important;
+}
+
+.ant-input-number:focus,
+.ant-input-number:hover {
+  border-color: 1px solid var(--CTA, #0B3D60) !important;
+}
+
+.ant-picker:focus,
+.ant-picker:hover {
+  border-color: 1px solid var(--CTA, #0B3D60) !important;
+}
+
+
+.discount-radio-btn {
+  color: var(--White, #FFF);
+  font-family: @primary-text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  .ant-radio-button-wrapper.ant-radio-button-wrapper-checked {
+    border-top: 1px solid var(--CTA, #0B3D60) !important;
+    border-bottom: 1px solid var(--CTA, #0B3D60);
+    border-left: 1px solid var(--CTA, #0B3D60);
+    background: var(--CTA, #0B3D60);
+    &:hover,
+    &:focus {
+      color: var(--White, #FFF) !important;
+    }
+  }
+  .ant-radio-button-wrapper {
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid var(--Grey, #CCC);
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding:4px 0px 0px 0px !important;
+    color: rgba(34, 34, 34, 0.50) !important;
+    &:hover,
+    &:focus {
+      color: rgba(34, 34, 34, 0.50) !important;
+    }
+  }
+}
+
+.l-30p {
+  left: 30px;
+}
+
+.mt-25p {
+  margin-top: 25px;
+}
+
+.coupon-access {
+  .ant-form-item-label > label  {
+    color: #222 !important;
+    font-family: @primary-text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5px;
+  }
+}
+
+.ant-picker-cell-inner::before {
+  border: 1px solid #0B3D60 !important;
+}
+:where(.css-dev-only-do-not-override-19gw05y).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, :where(.css-dev-only-do-not-override-19gw05y).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner, :where(.css-dev-only-do-not-override-19gw05y).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner{
+  color: #fff !important;
+  background: #0B3D60;
+  border: 1px solid #0B3D60;
+}
+.coupon-form {
+  margin-top: 25px;
+  .ant-form-item .ant-form-item-label >label {
+    color: rgba(34, 34, 34, 0.50);
+    font-family: @primary-text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.default-coupon-text {
+  color: var(--Black, #222);
+  text-align: center;
+  font-family: @primary-text;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.coupon-msg {
+  color: rgba(34, 34, 34, 0.50);
+  text-align: center;
+  font-family: @primary-text;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.upload-image-icon {
+  width: 41.25px;
+  height: 36.22px;
+}
+
+.upload-image-text {
+  color: var(--Black, #222);
+  text-align: center;
+  font-family: @primary-text;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px; 
+}
+
+.image-ratio-text {
+  color: var(--CTA, #0B3D60);
+  font-family: @primary-text;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px; 
+  letter-spacing: -0.1px;
+}
+
+.image-restrict-text {
+  color: #F84141;
+  font-family: @primary-text;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: -0.1px;
+}
+
+.fs-14 {
+  font-size: 12px;
+}
+
+.ratio-text-align {
+  margin-top: -10px;
+}
+
+.browse-text {
+  color: var(--CTA, #0B3D60);
+  text-decoration-line: underline;
+}
+
+.info-icon-align {
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+
+.product-modal {
+  .ant-modal-content {
+   padding: 0px !important;
+  }
+}
+
+
+.sales-total-price {
+  color: var(--CTA, #0B3D60);
+  font-family: @secondary-text;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.disable-card {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden
+}
+
+.coupon-form-row {
+  left: 15px;
+  position: relative;
+}
+
+.r-17p {
+  right: 17px;
+}
+
+.ant-btn-default:hover {
+  border-color: var(--CTA, #0B3D60) !important;
+}
+
+.ant-radio-wrapper:focus {
+  border-color: var(--CTA, #0B3D60) !important;
+}
+
+.ant-input-number-affix-wrapper:hover {
+  border-color: var(--CTA, #0B3D60) !important;
+}
+
+.ant-input-number-affix-wrapper:focus {
+  border-color: var(--CTA, #0B3D60) !important;
+}
+
+.coupon-success {
+  color: var(--dark-tone-100, #1A1A25);
+  font-family: @primary-text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.ant-modal-close {
+  :hover {
+    color: #fc5050;
+  }
+}
+
+.ant-select-selector {
+  border-color: rgba(0, 0, 0, 0.25) !important;
+}

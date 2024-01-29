@@ -1,0 +1,267 @@
+@white: #fff;
+@theme: #38523b;
+@backGround: #232323;
+@backGroundClic: #ffffff;
+@themeClic: #232323;
+@whiteClic: #ffffff;
+@blackClic: #232323;
+
+.notify-layout {
+  position: relative;
+  .ant-dropdown {
+    margin: -7px 16px !important;
+  }
+  .clic-top-header {
+    background: @white;
+    position: fixed;
+    width: calc(100% - 200px);
+    height: 68px;
+    padding: 0px;
+    z-index: 1;
+    box-shadow: 3px 3px 6px #00000029;
+    .header-container {
+      padding: 12px 0px;
+    }
+    .profile-icon {
+      padding: 11px 16px !important;
+      border-radius: 50px;
+      background: #c1c1c1;
+    }
+    .header-back {
+      .ant-btn {
+        margin-left: 16px;
+        height: 30px !important;
+        width: 30px;
+        transition: 0.3s;
+        color: white !important;
+        background-color: #000 !important;
+        border-radius: 50% !important;
+        .anticon {
+          color: var(--gray-shade-2);
+        }
+        svg {
+          transition: 0.3s;
+        }
+      }
+    }
+    .dark-mode-container {
+      .ant-switch {
+        padding: 15px 15px;
+        height: 0px;
+      }
+      .ant-switch-checked {
+        background-color: #c1c1c1 !important;
+        .ant-switch-handle {
+          left: calc(100% - 18px - 8px);
+        }
+        .ant-switch-inner {
+          margin: -8px 25px 0 -2px;
+        }
+      }
+      .ant-switch-inner {
+        margin: -8px -4px 0 24px;
+      }
+      .ant-switch-handle {
+        left: 6px;
+        top: 6px;
+      }
+    }
+    .ant-dropdown {
+      margin: -7px 16px !important;
+    }
+  }
+  .clic-sidebar {
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0 0 20px 0;
+    box-shadow: 3px 0px 6px #00000029;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    position: fixed;
+    .sidebar-powerby-text {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      background: @backGroundClic 0% 0% no-repeat padding-box;
+      .footer-sub-text {
+        font-size: 14px;
+        color: #1B1B1B;
+        font-weight: bold;
+      }
+      .footer-text{
+        font-size: 16px;
+        color: #1B1B1B;
+        font-weight: bold;
+      }
+    }
+    > .ant-layout-sider-children {
+      display: block;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+      .collapsible-side-bar {
+        flex: 1 1 auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: calc(100vh - 10px);
+        &::-webkit-scrollbar {
+          width: 5px;
+          height: 8px;
+          background-color: #fff; /* or add it to the track */
+        }
+        &::-webkit-scrollbar-thumb {
+          background: transparent;
+        }
+        &::-moz-scrollbar {
+          width: 12px;
+        }
+        &::-moz-scrollbar-track {
+          box-shadow: inset 0 0 6px #fff;
+        }
+        &::-moz-scrollbar-thumb {
+          border-radius: 10px;
+        }
+      }
+    }
+    .logo {
+      padding: 0 20px;
+      margin: 10px 0;
+      > img {
+        object-fit: contain;
+        height: 60px;
+      }
+      .text {
+        text-align: center;
+        color: @blackClic;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 8px;
+      }
+    }
+    .side-menu {
+      background: transparent;
+      li {
+        color: @blackClic;
+        transition: 0.3s linear;
+        font-size: 15px;
+        .ant-menu-item-icon {
+          color: @backGround;
+          vertical-align: sub;
+        }
+        .ant-tooltip-open {
+          color: #000;
+        }
+        .anticon {
+          color: @blackClic;
+        }
+        .ant-menu-title-content {
+          margin-top: 2px;
+        }
+        &:hover, &.ant-menu-item-selected, &.ant-menu-item-active {
+          background-color: @themeClic !important;
+          color: @whiteClic;
+          .ant-menu-item-icon {
+            vertical-align: sub;
+            g {
+              path {
+                fill: @whiteClic!important;
+              }
+            }
+          }
+          .anticon {
+            color: @whiteClic !important;
+          }
+        }
+      }
+    }
+  }
+  .clic-page-content {
+    margin-top: 70px !important;
+    .ant-breadcrumb {
+      span:nth-child(1) span a {
+          color: #232323;
+          font-size: 14px;
+      }
+      span:nth-child(n + 2) span {
+        color: #008080;
+        font-weight: 600;
+      }
+    }
+  }
+}
+// .ant-btn-dangerous {
+//   color: #fff !important ;
+//   border-color: #f14343 !important  ;
+//   background-color: #f14343 !important;
+  
+// }
+.content-layout-container {
+  background-color: @whiteClic;
+  height: 100%;
+  padding: 16px;
+  .ant-btn-primary.ant-btn {
+    background: #232323 !important;
+    border-color: #232323 !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    &:active {
+      box-shadow: 8px #c1c1c1;
+    }
+  }
+  .ant-btn-dangerous {
+    background-color: #fff !important ;
+    border-color: #f14343 !important  ;
+    color: #f14343 !important;
+    border-radius: 0px !important;
+    height: 36px !important;
+    &:active {
+      box-shadow: 8px #f14343;
+    }
+  }
+  .ant-btn {
+    background: #fff !important;
+    border-color: #232323 !important;
+    border-radius: 0 !important;
+    color: #232323 !important;
+    height: 36px !important;
+    &:active {
+      box-shadow: 8px #c1c1c1;
+    }
+  }
+}
+.clic-layout {
+  @font-face {
+    font-family: "Nunito";
+    src: url("../../../assets/fonts/Nunito/Nunito-Regular.ttf")
+      format("truetype");
+  }
+  .collapse-content-layout-pl {
+    padding-left: 200px;
+  }
+  .collapsed-content-layout-pl {
+    padding-left: 80px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .ant-collapse-item {
+    .ant-collapse-content-box {
+      background: #fff 0% 0% no-repeat padding-box !important;
+    }
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.visit-my-site-btn {
+  svg {
+    vertical-align: sub;
+    margin-right: 6px;
+  }
+}
+.book-demo-btn{
+  margin-right: 5px;
+}

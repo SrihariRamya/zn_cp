@@ -1,0 +1,32 @@
+{
+	"family": "zupain-cp",
+	"containerDefinitions": [{
+		"name": "zupain-cp",
+		"image": "603321723110.dkr.ecr.ap-south-1.amazonaws.com/prod-zupain-cp:GIT_COMMIT",
+		"cpu": 45,
+		"memory": 46,
+		"memoryReservation": 47,
+		"volumesFrom": [],
+		"portMappings": [{
+			"hostPort": 0,
+			"containerPort": 80,
+			"protocol": "tcp"
+        }],
+        "logConfiguration": {
+			"logDriver": "awslogs",
+			"options": {
+			  "awslogs-group": "GROUP_NAME",
+			  "awslogs-region": "ap-south-1",
+			  "awslogs-stream-prefix": "zupain-cp"
+			}
+		  },
+      "environment": [
+		{
+            "name": "TENANT_CONFIG_SECRET_NAME",
+            "value": "tenant_config_secret_name"
+        }
+	  ],
+      "mountPoints": []
+    }
+  ]
+}

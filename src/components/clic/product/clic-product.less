@@ -1,0 +1,247 @@
+.clic-product-container {
+  .search-products-container {
+    background-color: #eaeef6;
+    padding: 8px;
+    margin-top: 8px;
+    .ant-select-selector {
+      border-color: #c0c0c0 !important;
+      border-radius: 0px !important;
+    }
+  }
+  .product-list-container {
+    .sweetalert-actions {
+      justify-content: flex-end !important;
+      margin: 0px !important;
+    }
+    margin-top: 16px;
+    height: 66vh;
+    overflow: auto;
+    .ant-list-item {
+      margin-bottom: 0px;
+      .ant-list-item-meta-avatar {
+        margin-right: 8px;
+      }
+    }
+    .clic-product-list-card {
+      .ant-card-body {
+        padding: 10px;
+        box-shadow: 0px 0px 8px #00000029;
+        margin: 4px;
+      }
+      .product-image-container {
+        height: 90px;
+        width: 90px;
+        cursor: pointer;
+        .product-image {
+          height: 100%;
+          width: 100%;
+          border-radius: 0px;
+        }
+      }
+      .product-name {
+        line-height: 1rem;
+        overflow: hidden;
+        font-weight: normal;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        text-transform: capitalize;
+        margin-right: 8px;
+        width: 88%;
+      }
+      .product-price {
+        font-weight: 600;
+      }
+      .product-list-icon {
+        padding: 4px;
+        background: #232323;
+        color: white;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        cursor: pointer;
+        :hover {
+          box-shadow: 8px white;
+        }
+        .anticon {
+          margin: 4px;
+          fill: #ffffff !important;
+        }
+        svg {
+          width: 16px;
+          height: 16px;
+          path {
+            fill: #ffffff;
+            stroke: #232323;
+          }
+        }
+      }
+      .ant-switch {
+        min-width: 38px;
+        height: 18px;
+      }
+      .ant-switch-handle {
+        width: 14px;
+        height: 14px;
+      }
+      .live-text {
+        color: #232323;
+        margin-left: 10px;
+        font-size: 13px;
+        font-weight: 800;
+      }
+      .enquiry-section {
+        background: #D8F2F2;
+        padding: 15px;
+        margin-top: 15px;
+        h4 {
+          color: #008080;
+          margin-bottom: 10px !important;
+        }
+      }
+    }
+  }
+  .add-product-main-container {
+    margin-top: 16px;
+    text-align: center;
+    .add-product-container {
+      background-color: #eaeef6;
+      padding: 24px;
+      margin: auto;
+      width: 40%;
+      .ant-row {
+        margin-top: 0px;
+      }
+      .ant-form-item-label
+        > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+        display: none;
+      }
+      .ant-form-item {
+        margin-bottom: 8px;
+      }
+      .ant-form-item-explain-error {
+        text-align: left;
+      }
+      .ant-form-item-label > label {
+        color: #232323 !important;
+        font-size: 15px;
+      }
+      .image-form-container {
+        .ant-upload {
+          width: 100% !important;
+          border: 1px dashed #c1c1c1;
+        }
+        .ant-upload-list-picture-card-container {
+          width: 100% !important;
+          height: 150px !important;
+        }
+        .upload-text {
+          text-align: center;
+          font-size: 13px;
+          color: #c1c1c1;
+          margin: 8px;
+        }
+        .upload-icon {
+          .anticon svg {
+            width: 50px;
+            height: 50px;
+            fill: #c1c1c1;
+          }
+        }
+        .ant-upload-list-picture-card {
+          .ant-upload-list-item-info::before {
+            width: auto !important;
+          }
+          .anticon-eye {
+            margin: 0px 8px !important;
+          }
+        }
+        .ant-upload-list-item-actions {
+          .ant-btn {
+            width: 16px !important;
+            height: 16px !important;
+            background: none !important;
+            border: none !important;
+          }
+        }
+      }
+      .option-text {
+        text-align: left;
+        color: #232323 !important;
+        font-size: 15px;
+      }
+      .checkbot-container {
+        margin-top: 10px;
+        text-align: left;
+        .ant-checkbox + span {
+          color: #232323 !important;
+          font-size: 14px;
+        }
+      }
+    }
+    .add-product-wrapper {
+      width: 70%;
+      display: flex;
+      .add-fields {
+        background: #fff;
+        padding: 16px !important;
+        h4 {
+          color: #008080;
+          text-align: left;
+        }
+        .input-fields {
+          margin: 16px 0px 0px;
+          display: flex;
+          justify-content: space-between;
+          .input-text {
+            background: #232323;
+            color: #fff;
+            padding: 7px;
+            display: inline-block;
+            width: 100%;
+          }
+          .ant-btn {
+            border: 1px dashed #c1c1c1 !important;
+          }
+          .ant-btn[disabled], .ant-btn[disabled]:hover, .ant-btn[disabled]:focus, .ant-btn[disabled]:active {
+            color: rgba(0, 0, 0, 0.25) !important;
+            background: #f5f5f5 !important;
+            border-color: #d9d9d9 !important;
+          }
+        }
+      }
+      .add-input-main-container {
+        .ant-form-item {
+          margin-bottom: 0px;
+        }
+        .input-container {
+          background: #fff;
+          padding: 10px 5px;
+        }
+      }
+    }
+  }
+}
+.clic-confirm-modal {
+  .ant-modal-content {
+    border-radius: 0;
+  }
+  .ant-btn {
+    border-radius: 0 !important;
+    border-color: #232323 !important;
+    background: #fff;
+    color: #232323;
+    &.ant-btn-primary {
+      background: #232323 !important;
+      color: #fff;
+    }
+  }
+}
+.enquiry-toggle {
+  text-align: right;
+  svg {
+    fill: #232323;
+    cursor: pointer;
+  }
+}

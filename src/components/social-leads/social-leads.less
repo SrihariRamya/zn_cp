@@ -1,0 +1,239 @@
+.flex-p-12 {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.chat-card-container {
+    .chat-main-div {
+        height: 300px;
+        width: 100%;
+        padding: 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    #scroll::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    #scroll::-webkit-scrollbar {
+        width: 2px;
+        background-color: #F5F5F5;
+    }
+
+    #scroll::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: #555;
+    }
+
+    .ant-card-body {
+        padding: 10px;
+
+        .ant-collapse-content-box {
+            background: url("https://images-zupain.s3.amazonaws.com/20-07-2023-09-03-30-default-wallpaper.JPEG") repeat !important;
+            padding: 10px;
+        }
+    }
+
+    .message {
+        color: #000;
+        clear: both;
+        line-height: 18px;
+        font-size: 15px;
+        padding: 8px;
+        max-width: 85%;
+        word-wrap: break-word;
+        position: relative;
+    }
+
+    .message:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+
+    .message.sent {
+        background-color: #E1FFC7;
+        border-radius: 5px 0px 5px 5px;
+        float: right;
+        margin-right: 3px;
+        margin-bottom: 6px;
+    }
+
+    .message.sent:after {
+        border-width: 0px 0 10px 10px;
+        border-color: transparent transparent transparent #e1ffc7;
+        top: 0;
+        right: -10px;
+    }
+
+    .message.received {
+        background-color: #ffffff;
+        border-radius: 0px 5px 5px 5px;
+        float: left;
+        margin-bottom: 6px;
+    }
+
+    .message.received:after {
+        border-width: 0px 10px 10px 0;
+        border-color: transparent #fff transparent transparent;
+        top: 0;
+        left: -10px;
+    }
+
+    .message.received:after {
+        border-width: 0px 10px 10px 0;
+        border-color: transparent #fff transparent transparent;
+        top: 0;
+        left: -10px;
+    }
+
+    .metadata {
+        float: right;
+        padding: 0 0 0 7px;
+        position: relative;
+        bottom: -4px;
+    }
+
+    .metadata .time {
+        color: rgba(0, 0, 0, .45);
+        font-size: 11px;
+        display: inline-block;
+    }
+}
+
+.add-tab-modal {
+    .ant-modal-header {
+        background-color: #D8F2F2 !important;
+
+        .ant-modal-title {
+            color: #000000;
+            font-weight: normal;
+        }
+    }
+
+    .ant-modal-footer {
+        border-top: none;
+    }
+
+    .ant-modal-content {
+        border-radius: 0px;
+
+        .ant-modal-close {
+            color: #000000;
+        }
+
+        .ant-typography {
+            margin-top: 0px;
+            font-weight: normal !important;
+        }
+
+        .ant-input {
+            margin-top: 33px;
+        }
+
+
+    }
+}
+
+.main-row-icon {
+
+
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+
+
+    .calendar-icon {
+        svg {
+            height: 2em;
+            width: 2em;
+        }
+
+    }
+
+    .whatsapp-icon-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ant-col {
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.h-screen {
+    height: 67vh;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.drag-container {
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+
+    &::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+        background-color: #c5c5c5;
+        border-radius: 7px;
+    }
+}
+
+.button-style {
+    width: 60px;
+}
+
+.custom-layout-bg-style {
+    background: #f0f2f5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.sender {
+    background-color: #b0c6e8;
+    text-align: left;
+    max-width: fit-content;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    padding: 0px 10px 0px 10px;
+}
+
+.receiver {
+    text-align: right;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.qr-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.social-leads-button{
+    display: flex;
+    justify-content: end;
+}

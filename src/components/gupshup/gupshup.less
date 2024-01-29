@@ -1,0 +1,397 @@
+.gushups-create-template-container {
+  .ant-alert-with-description {
+    padding-inline: 8px;
+    padding-block: 8px;
+  }
+  .template-left-side-container {
+    padding: 1.8rem 1rem;
+    background: #fff;
+    border: 1px solid #dae1e5;
+    box-shadow: 0 3px 10px rgba(40, 75, 117, .03);
+    border-radius: 12px;
+    overflow: auto;
+
+    .ant-form-item {
+      margin-bottom: 10px;
+
+      .ant-form-item-label {
+        padding: 0px;
+      }
+
+      .ant-select-selector{
+        height: 40px !important;
+      }
+    }
+    
+
+    .info-text {
+      color: rgba(0, 0, 0, 0.6);
+      font-weight: 400;
+      font-size: 0.85rem;
+      line-height: 1.66;
+      text-align: left;
+      margin: 4px 0px;
+    }
+
+    .variable-list-container {
+      padding: 10px;
+      background: #fff;
+      border: 1px solid #dae1e5;
+      box-shadow: 0 3px 10px rgba(40,75,117,.03);
+      border-radius: 12px;
+      .variable-list {
+        max-height: 230px;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.create-gushups-app-container {
+  .ant-form-item-label {
+    padding: 0px;
+  }
+}
+
+.template-preview-container {
+  background-image: url(https://images-zupain.s3.amazonaws.com/08-12-2023-17-51-03-482-361x638-template-preview-bg.webp);
+  padding: 16px 12px;
+  border-radius: 8px;
+  text-align: left;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .content {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 12px 8px;
+    line-height: 1.5;
+
+    &-header {
+      font-size: 16px;
+      font-weight: bold;
+      padding: 0px 8px 0px 8px;
+      overflow-wrap: break-word;
+      color: #000000;
+    }
+
+    &-body {
+      display: -webkit-box;
+      font-size: 14px;
+      font-weight: normal;
+      color: #000000;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      max-width: 100%;
+      overflow-y: auto;
+      max-height: 400px;
+      padding: 6px 8px 6px;
+      white-space: pre-line;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    &-modal-body-height {
+      max-height: auto !important;
+    }
+
+    &-footer {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 16px;
+      padding: 6px 8px 6px;
+      color: gray;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      max-width: 100%;
+      max-height: 48px;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 4px;
+  }
+
+    &-time-stamp {
+      text-align: end;
+      margin-right: 12px;
+      font-size: 12px;
+      color: gray;
+    }
+  }
+}
+
+.template-modal-preview-height {
+  min-height: 65vh;
+  max-height: 65vh;
+  overflow: auto;
+}
+
+.template-screen-preview-height {
+  min-height: 95vh;
+  max-height: 95vh;
+  overflow: auto;
+}
+
+.template-status-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.preview-modal {
+  .ant-modal-content {
+    .ant-modal-body {
+      line-height: 1.5;
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+  }
+}
+
+.template-list-main-container {
+  .ant-tabs-nav {
+    margin: 0px !important;
+  }
+
+  .template-list-container {
+    margin-top: 16px;
+    height: 80vh;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .ant-list-item {
+      margin: 0px 8px 8px;
+
+      .ant-list-item-meta-avatar {
+        margin-right: 8px;
+      }
+    }
+
+    .template-list-card {
+      .ant-card-body {
+        padding: 10px;
+        box-shadow: 0px;
+        margin: 4px;
+      }
+
+      .template-image {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+      }
+
+      .template-name {
+        margin-top: 4px;
+        color: var(--Black, #222);
+        font-family: "Nunito", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .template-type {
+        margin-top: 4px;
+
+        .ant-tag {
+          z-index: 1 !important;
+        }
+      }
+
+      .template-content {
+        color: #808080;
+        display: -webkit-box;
+        overflow: hidden;
+        font-size: 12px;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        min-height: 54px;
+      }
+
+      .preview-submit-button {
+        margin-top: 6px;
+
+        .ant-btn {
+          height: 32px !important;
+        }
+      }
+    }
+  }
+}
+
+.template-add-new-template-item {
+  .ant-card-meta-detail {
+    margin: 38px 0px;
+  }
+  .template-dummy-image {
+    width: 100px;
+    height: 100px;
+  }
+  .template-dummy-text {
+    font-size: 12px;
+    min-height: 54px;
+    cursor: pointer;
+  }
+}
+
+.template-message-list-main-container {
+  .date-filltr-container {
+    .ant-select {
+      color: #8993A0 !important;
+      width: 180px !important;
+      margin-right: 10px !important;
+      .ant-select-selector {
+        height: 38px !important;
+      }
+    }
+  }
+  .message-list-container {
+    .ant-col {
+      padding: 8px;
+    }
+    margin-top: 10px;
+    .ant-card {
+      border-radius: 8px;
+      box-shadow: 0px 8px 32px rgba(39,40,92,.1);
+      .ant-card-extra {
+        padding-top: 0px !important;
+      }
+      .ant-card-head {
+        min-height: 24px !important;
+        margin-bottom: 0px !important;
+        border: none !important;
+        padding: 0px  10px !important;
+      }
+      .ant-card-body {
+        padding: 16px !important;
+      }
+      .ant-card-meta-detail {
+        text-align: center;
+      }
+    }
+    .count-text {
+      color: #0B3D60 !important;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 1;
+    }
+    .message-text {
+      font-size: 16px;
+      color: black;
+      font-weight: 600;
+    }
+    .send-card-container {
+      background-color: rgba(230, 244, 255, 1);
+      border-color: rgba(145, 202, 255, 1);
+    }
+    .delivered-card-container {
+      background-color: rgba(246, 255, 237, 1);
+      border-color: rgba(183, 235, 143, 1);
+    }
+    .read-card-container {
+      background-color: rgba(255, 247, 230, 1);
+      border-color: rgba(255, 223, 144, 1);
+    }
+    .failed-card-container {
+      background-color: rgba(255, 241, 240, 1);
+      border-color: rgba(255, 163, 158, 1);
+    }
+  }
+  .line-chart-container {
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(39,40,92,.1);
+    margin: 10px;
+    padding: 10px;
+    .title {
+      color: black;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .message-count-container {
+      height: 318px;
+      margin: 0px;
+      width: 100%;
+    }
+    .message-no-count-container {
+      height: 294px;
+      margin: 0px;
+      width: 100%;
+    }
+  }
+  .template-table-container {
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(39,40,92,.1);
+    margin: 10px;
+    padding: 10px;
+    .title {
+      color: #707070;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .product-table {
+      .ant-table {
+        max-height: 350px !important;
+        height: 350px !important;
+        min-height: 350px !important;
+      }
+      .ant-table-column-sorters {
+        display: flex !important;
+        justify-content: left !important;
+      }
+      .ant-table-column-title {
+        flex: none;
+        position: relative;
+        margin-left: 0px !important;
+      }
+      .ant-table-column-sorter  {
+        position: relative !important;
+        left: 8px !important;
+      }
+      .ant-table-cell {
+        padding: 8px !important;
+      }
+    }
+  }
+  .category-list-contianer {
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(39,40,92,.1);
+    margin: 10px;
+    padding: 10px;
+    .chart-value-container {
+      height: 60%;
+      width: 100%;
+      margin: 24px;
+      position: absolute;
+      top: 40%;
+      .color-blue-box {
+        width: 15px;
+        height: 15px;
+        background-color: #0B3D60;
+        margin-right: 10px;
+        margin-top: 5px;
+      }
+      .color-pink-box {
+        width: 15px;
+        height: 15px;
+        background-color: #C8BFE7;
+        margin-right: 10px;
+        margin-top: 5px;
+      }
+    }
+    .bar-doughnut {
+      height: 270px;
+      margin: 24px;
+    }
+  }
+}

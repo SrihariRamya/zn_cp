@@ -1,0 +1,24 @@
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="razorpay-glyph 7" filter="url(#filter0_d_1488_13250)">
+<rect x="5" y="4" width="58" height="58" rx="8" fill="white"/>
+<rect x="4.925" y="3.925" width="58.15" height="58.15" rx="8.075" stroke="#CCCCCC" stroke-width="0.15"/>
+<path id="Vector" d="M43 28.0543C43 27.2886 42.3293 26.632 41.5473 26.632H38.8651L32.7182 19.7386C32.1595 19.082 31.2655 18.8633 30.3714 19.082L28.248 19.7386C27.9127 19.8482 27.8007 20.2856 28.0247 20.5043L34.7303 26.7416H24.5587C24.2234 26.7416 24 26.9603 24 27.2886V28.3826C24 29.1483 24.6707 29.8049 25.4527 29.8049H27.0175V35.0573C27.0175 38.9964 29.1409 41.2946 32.7176 41.2946C33.835 41.2946 34.7297 41.185 35.8471 40.7476V44.2494C35.8471 45.2343 36.6291 46 37.6352 46H39.1999C39.5352 46 39.8706 45.6717 39.8706 45.3434V29.6958H42.4413C42.7766 29.6958 43 29.4772 43 29.1488V28.0543ZM35.8471 37.4645C35.1764 37.7928 34.2824 37.9024 33.6117 37.9024C31.8236 37.9024 30.9296 37.0271 30.9296 35.0573V29.8049H35.8471V37.4645Z" fill="white"/>
+<g id="Group 48098458">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M49.25 38.6092L55.4767 32.929L52.5273 27.0527L49.25 38.6092Z" fill="#097939"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M47.1523 38.6092L53.379 32.929L50.4296 27.0527L47.1523 38.6092Z" fill="#ED752E"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M17.3949 27.1179L14.7733 36.4545L24.0803 36.5197L26.6367 27.1179H28.9962L25.9311 38.0479C25.8137 38.4652 25.3668 38.8044 24.9333 38.8044H13.0038C12.2804 38.8044 11.8517 38.2392 12.0473 37.5435L14.9707 27.1179H17.3949ZM46.1685 27.0527H48.528L45.2507 38.8044H42.8247L46.1685 27.0527ZM29.2588 31.949L41.0566 31.8838L41.8435 29.4026H29.8483L30.5692 27.1175L43.3512 27.0001C44.1469 26.9927 44.6208 27.6087 44.4112 28.377L43.2069 32.7785C42.9969 33.5463 42.1809 34.1685 41.3852 34.1685H30.8318L29.5875 39H27.2919L29.2588 31.949Z" fill="#747474"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1488_13250" x="0.849609" y="0.849609" width="66.3008" height="66.3008" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0431373 0 0 0 0 0.239216 0 0 0 0 0.376471 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1488_13250"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1488_13250" result="shape"/>
+</filter>
+</defs>
+</svg>

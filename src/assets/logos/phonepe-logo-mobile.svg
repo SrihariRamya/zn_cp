@@ -1,0 +1,20 @@
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="razorpay-glyph 7" filter="url(#filter0_d_1488_13231)">
+<rect x="5" y="4" width="58" height="58" rx="8" fill="white"/>
+<rect x="4.925" y="3.925" width="58.15" height="58.15" rx="8.075" stroke="#CCCCCC" stroke-width="0.15"/>
+<path id="Vector" d="M34 53C45.0457 53 54 44.0457 54 33C54 21.9543 45.0457 13 34 13C22.9543 13 14 21.9543 14 33C14 44.0457 22.9543 53 34 53Z" fill="#5F259F"/>
+<path id="Vector_2" d="M43 28.0543C43 27.2886 42.3293 26.632 41.5473 26.632H38.8651L32.7182 19.7386C32.1595 19.082 31.2655 18.8633 30.3714 19.082L28.248 19.7386C27.9127 19.8482 27.8007 20.2856 28.0247 20.5043L34.7303 26.7416H24.5587C24.2234 26.7416 24 26.9603 24 27.2886V28.3826C24 29.1483 24.6707 29.8049 25.4527 29.8049H27.0175V35.0573C27.0175 38.9964 29.1409 41.2946 32.7176 41.2946C33.835 41.2946 34.7297 41.185 35.8471 40.7476V44.2494C35.8471 45.2343 36.6291 46 37.6352 46H39.1999C39.5352 46 39.8706 45.6717 39.8706 45.3434V29.6958H42.4413C42.7766 29.6958 43 29.4772 43 29.1488V28.0543ZM35.8471 37.4645C35.1764 37.7928 34.2824 37.9024 33.6117 37.9024C31.8236 37.9024 30.9296 37.0271 30.9296 35.0573V29.8049H35.8471V37.4645Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_1488_13231" x="0.849609" y="0.849609" width="66.3008" height="66.3008" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0431373 0 0 0 0 0.239216 0 0 0 0 0.376471 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1488_13231"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1488_13231" result="shape"/>
+</filter>
+</defs>
+</svg>

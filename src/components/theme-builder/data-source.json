@@ -1,0 +1,2461 @@
+{
+    "product_id": 1244,
+    "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+    "product_name": "SAMPLE PRODUCT",
+    "product_brand": "BRAND NAME",
+    "category_uid": "06d81ab2-c2db-4bd3-83e4-f094f95ee565",
+    "sub_category_uid": "26030a23-0ddc-4062-a4f5-0ae48a31ee23",
+    "gst": null,
+    "upc": null,
+    "shelf_life": "",
+    "manufacturer_details": "fff",
+    "country_of_origin": "",
+    "created_by": null,
+    "modified_by": null,
+    "product_status": true,
+    "track_inventory": false,
+    "low_stock_level": null,
+    "seo_title": null,
+    "seo_description": null,
+    "seo_custom_path": null,
+    "text_content": "<h2>What Makes Product Descriptions Great</h2><p>There are a lot of elements and it varies heavily depending on the product and audience in question. While there is no one-size-fits-all rule, there are some best practices to keep in mind.</p><p>Some of the most important of these include:</p><h3><strong>Engage emotionally</strong></h3><p>Put some flesh and bones on the cold steel of your product. Emotions sell more than facts do! It’s easy to&nbsp;<a href=\"https://www.forbes.com/sites/forbesbusinesscouncil/2022/10/11/sell-the-emotions-not-the-facts/?sh=339801705350\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(88, 197, 88);\">overwhelm prospects</a>&nbsp;with too much information and confuse them. More often than not, this leads to them walking away from a sale.&nbsp;</p><p>When you play into the emotional aspects of making a purchase, however, you capture their attention and make them think.&nbsp;In addition, it’s also important to understand your audience. What keeps them up at night? What problem are you solving for them?&nbsp;Once you know the answers to these questions, you can create a story around your “fix” to the problem — your product.</p><h3><strong>Focus on the benefit</strong></h3><p>Your customers are probably wondering, “Features are great and all, but how does it benefit me?” It’s a great question and one you should be prepared to answer in your product description.&nbsp;</p><p>Instead of writing a laundry list of facts, figures, and features, take a step back and highlight the benefits to the customer. For example, it’s great if your product is&nbsp;<a href=\"https://www.contentcucumber.com/blog/eco-friendly-companies-you-can-order-from-today\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(88, 197, 88);\">eco-friendly</a>&nbsp;or boasts a low carbon footprint. But unless that product works and solves a problem for them, they aren’t going to care.</p><p>Decide on which features are most important to the customer and build those into your product description toward the beginning. You don’t want to bury the lead!</p><h3><strong>Keep your audience in mind</strong></h3><p>If you’re selling basketball jerseys at a Mariah Carrey concert, you won’t likely have much luck.</p><p>We hinted at this above, but it’s all about your audience. When you understand who exactly you’re selling to, you can create copy that speaks directly to them and their problems.&nbsp;</p><p>This is also a great place to let&nbsp;<a href=\"https://www.contentcucumber.com/blog/different-types-of-brand-voices\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(88, 197, 88);\">your brand voice</a>&nbsp;shine through. If your audience is mostly Gen Z’ers with a few millennials sprinkled in, you can likely be more informal with your description. Use company slang. Throw in an emoji or two. Whatever makes sense for your brand voice and your audience, lean into that for the best results.&nbsp;</p><h3><strong>Keep it scannable</strong></h3><p>The internet is directly responsible for an&nbsp;<a href=\"https://www.ranieriandco.com/post/changing-attention-span-and-what-it-means-for-content-in-2021#:~:text=A%20recent%20study%20by%20Microsoft,in%20just%20a%20few%20years.\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(88, 197, 88);\">8-second decline</a>&nbsp;in human attention spans. Engage your audience quickly and then make your writing easy to follow from there on!</p><p>This goes back to our first point where too much information can actually confuse customers and make them less likely to buy anything at all. Scannable copy where they can easily pick out important information is definitely the way to go.&nbsp;</p><ul><li>With these points in mind, let’s take a look at some times when companies knocked their descriptions out of the park.</li></ul>",
+    "seo_preview_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-08-05-12-blob",
+    "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38",
+    "creation_date": "2023-02-22T16:05:10.000Z",
+    "modified_date": "2023-06-16T08:05:12.000Z",
+    "deletedAt": null,
+    "zm_category": {
+        "category_name": "Veggies",
+        "description": null,
+        "image": "https://images-zupain.s3.ap-south-1.amazonaws.com/23-02-2023-07-10-34-08-12-2021-11-32-59benefits-of-almond.JPEG",
+        "name": "",
+        "seo_title": null,
+        "seo_description": null,
+        "seo_custom_path": null
+    },
+    "zm_sub_category": {
+        "sub_category_name": "Root Veggies",
+        "description": null
+    },
+    "product_variants": [
+        {
+            "id": "1-1527",
+            "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+            "price": null,
+            "discount_percent": null,
+            "discount_amount": null,
+            "gst": null,
+            "stock": null,
+            "variant_attributes": [
+                {
+                    "attribute_value": "variant 1",
+                    "attribute_id": 1,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Units",
+                        "data_type": "mixed"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 2,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Color Code",
+                        "data_type": "mixed"
+                    }
+                },
+                {
+                    "attribute_value": 150,
+                    "attribute_id": 3,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "MRP Price",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 100,
+                    "attribute_id": 4,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Selling Price",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 33,
+                    "attribute_id": 5,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Discount in %",
+                        "data_type": "percentage"
+                    }
+                },
+                {
+                    "attribute_value": 50,
+                    "attribute_id": 6,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Discount in ₹",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 7,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Manufacture date",
+                        "data_type": "date"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 9,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Including TAX",
+                        "data_type": "boolean"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 11,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Length (in cm)",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 12,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Width (in cm)",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 13,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Height (in cm)",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 14,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Weight (in kg)",
+                        "data_type": "float"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1-1528",
+            "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+            "price": null,
+            "discount_percent": null,
+            "discount_amount": null,
+            "gst": null,
+            "stock": null,
+            "variant_attributes": [
+                {
+                    "attribute_value": "variant 2",
+                    "attribute_id": 1,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Units",
+                        "data_type": "mixed"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 2,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Color Code",
+                        "data_type": "mixed"
+                    }
+                },
+                {
+                    "attribute_value": 250,
+                    "attribute_id": 3,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "MRP Price",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 200,
+                    "attribute_id": 4,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Selling Price",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 20,
+                    "attribute_id": 5,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Discount in %",
+                        "data_type": "percentage"
+                    }
+                },
+                {
+                    "attribute_value": 50,
+                    "attribute_id": 6,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Discount in ₹",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 7,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Manufacture date",
+                        "data_type": "date"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 9,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Including TAX",
+                        "data_type": "boolean"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 11,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Length (in cm)",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 12,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Width (in cm)",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 13,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Height (in cm)",
+                        "data_type": "float"
+                    }
+                },
+                {
+                    "attribute_value": 0,
+                    "attribute_id": 14,
+                    "description": null,
+                    "zm_attribute": {
+                        "name": "Weight (in kg)",
+                        "data_type": "float"
+                    }
+                }
+            ]
+        }     
+    ],
+    "product_image": [
+        {
+            "product_image_id": 2599,
+            "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+            "product_image": "https://images-zupain.s3.amazonaws.com/16-06-2023-08-05-12-600x600-pexels-photo-7319294.webp",
+            "e_tag": "\"aaf546ce139b8ff69e02e068c43a0973\"",
+            "name": "pexels-photo-5872359.webp",
+            "image_source": "Web",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+        },
+        {
+            "product_image_id": 2600,
+            "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+            "product_image": "https://images-zupain.s3.amazonaws.com/16-06-2023-08-05-12-400x400-pexels-photo-5872359.webp",
+            "e_tag": "\"8b79c78a7cef062dd32f45cb34e83f56\"",
+            "name": "pexels-photo-5872359.webp",
+            "image_source": "Web",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+        },
+        {
+            "product_image_id": 2601,
+            "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+            "product_image": "https://images-zupain.s3.amazonaws.com/16-06-2023-08-05-12-600x600-pexels-photo-7319328.jpeg",
+            "e_tag": "\"adc122c1ed269dc40695dae15410d12c\"",
+            "name": "pexels-photo-5872359.webp",
+            "image_source": "Web",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+        },
+        {
+            "product_image_id": 2602,
+            "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+            "product_image": "https://images-zupain.s3.amazonaws.com/16-06-2023-08-05-12-400x400-pexels-photo-5872364.webp",
+            "e_tag": "\"2898ea9275e68b213f37aae9907089fb\"",
+            "name": "pexels-photo-5872359.webp",
+            "image_source": "Web",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+        },
+        {
+            "product_image_id": 2603,
+            "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+            "product_image": "https://images-zupain.s3.amazonaws.com/16-06-2023-08-05-12-600x600-pexels-photo-7319324.jpeg",
+            "e_tag": "\"fed0e7b9584cd4ca76ebccd6a2cae5e6\"",
+            "name": "pexels-photo-5872359.webp",
+            "image_source": "Web",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+        },
+        {
+            "product_image_id": 2604,
+            "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+            "product_image": "https://images-zupain.s3.amazonaws.com/16-06-2023-08-05-12-400x400-pexels-photo-5872361.webp",
+            "e_tag": "\"ff0214b589bc3c46e16066081847f79a\"",
+            "name": "pexels-photo-5872359.webp",
+            "image_source": "Web",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+        }
+    ],
+    "coupon": {
+        "id": 405,
+        "coupon_product_uid": "ca5cddc8-3346-4356-bdab-b37aed860387",
+        "coupon_id": "00ee9198-0948-436e-8b12-44fbf1d316aa",
+        "product_coupon_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+        "creation_date": "2023-06-01T05:10:25.000Z",
+        "modified_date": "2023-06-01T05:10:25.000Z",
+        "deletedAt": null,
+        "coupon_items": null
+    },
+    "selling_price": "100",
+    "mrp_price": "150",
+    "discount_price": "( 33% OFF )",
+    "related_product": [
+        {
+            "product_id": 1241,
+            "product_uid": "aac0c38c-bbba-483b-bf25-f5fee6bf5845",
+            "product_name": "RELATED PRODUCT 1",
+            "product_brand": "",
+            "category_uid": "ca9f897a-eb73-4f56-8283-af39cb2a59ae",
+            "sub_category_uid": null,
+            "gst": 0,
+            "product_code": "",
+            "upc": null,
+            "key_features": "",
+            "shelf_life": "",
+            "manufacturer_details": "",
+            "marketed_by": "",
+            "country_of_origin": "",
+            "seller": "",
+            "description": "",
+            "created_by": null,
+            "modified_by": null,
+            "product_status": true,
+            "track_inventory": true,
+            "low_stock_level": null,
+            "seo_title": null,
+            "seo_description": null,
+            "seo_custom_path": null,
+            "text_content": "<p><br></p>",
+            "seo_preview_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-07-39-blob",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38",
+            "creation_date": "2023-02-22T10:57:26.000Z",
+            "modified_date": "2023-06-16T09:07:39.000Z",
+            "deletedAt": null,
+            "product_variants": [
+                {
+                    "id": "1-1522",
+                    "product_uid": "aac0c38c-bbba-483b-bf25-f5fee6bf5845",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": 0,
+                    "stock": "1",
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "Variant 1",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 15,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 10,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 33,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 5,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ],
+                    "product_count": 0
+                },
+                {
+                    "id": "1-1696",
+                    "product_uid": "aac0c38c-bbba-483b-bf25-f5fee6bf5845",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": null,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "8kg",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 3000,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 2500,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 17,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 500,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "1-1697",
+                    "product_uid": "aac0c38c-bbba-483b-bf25-f5fee6bf5845",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": null,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "3kg",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 4000,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 3750,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 6,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 250,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "1-1698",
+                    "product_uid": "aac0c38c-bbba-483b-bf25-f5fee6bf5845",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": null,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "5kg",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 6000,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 5000,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 17,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 1000,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "1-1699",
+                    "product_uid": "aac0c38c-bbba-483b-bf25-f5fee6bf5845",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": null,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "Age Group,1 to 2 Years:Color,Star Gazer",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 2000,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 500,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 75,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 1500,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "product_image": [
+                {
+                    "product_image_id": 2606,
+                    "product_uid": "aac0c38c-bbba-483b-bf25-f5fee6bf5845",
+                    "product_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-07-39-600x600-pexels-photo-5632349.webp",
+                    "e_tag": "\"b6f6f4f85fb411479b371a3b82663b6b\"",
+                    "name": "pexels-photo-5632349.webp",
+                    "image_source": "Web",
+                    "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+                }
+            ],
+            "currentVariant": {
+                "id": "1-1522",
+                "product_uid": "aac0c38c-bbba-483b-bf25-f5fee6bf5845",
+                "price": null,
+                "discount_percent": null,
+                "discount_amount": null,
+                "gst": 0,
+                "stock": "1",
+                "variant_attributes": [
+                    {
+                        "attribute_value": "Variant 1",
+                        "attribute_id": 1,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Units",
+                            "data_type": "mixed"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 2,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Color Code",
+                            "data_type": "mixed"
+                        }
+                    },
+                    {
+                        "attribute_value": 15,
+                        "attribute_id": 3,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "MRP Price",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 10,
+                        "attribute_id": 4,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Selling Price",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 33,
+                        "attribute_id": 5,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Discount in %",
+                            "data_type": "percentage"
+                        }
+                    },
+                    {
+                        "attribute_value": 5,
+                        "attribute_id": 6,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Discount in ₹",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 7,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Manufacture date",
+                            "data_type": "date"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 9,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Including TAX",
+                            "data_type": "boolean"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 11,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Length (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 12,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Width (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 13,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Height (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 14,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Weight (in kg)",
+                            "data_type": "float"
+                        }
+                    }
+                ],
+                "product_count": 0
+            },
+            "related_product_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-07-39-600x600-pexels-photo-5632349.webp",
+            "selling_price": "10",
+            "mrp_price": "15",
+            "discount_price": "( 33% OFF )"
+        },
+        {
+            "product_id": 1242,
+            "product_uid": "fb8ccb09-2f24-43c9-88d9-7fcda5f77240",
+            "product_name": "RELATED PRODUCT 2",
+            "product_brand": "Deep Rot",
+            "category_uid": "06d81ab2-c2db-4bd3-83e4-f094f95ee565",
+            "sub_category_uid": "26030a23-0ddc-4062-a4f5-0ae48a31ee23",
+            "gst": 0,
+            "product_code": "",
+            "upc": null,
+            "key_features": "",
+            "shelf_life": "",
+            "manufacturer_details": "",
+            "marketed_by": "",
+            "country_of_origin": "",
+            "seller": "",
+            "description": "",
+            "created_by": null,
+            "modified_by": null,
+            "product_status": true,
+            "track_inventory": false,
+            "low_stock_level": null,
+            "seo_title": null,
+            "seo_description": null,
+            "seo_custom_path": null,
+            "text_content": "<h1><br></h1>",
+            "seo_preview_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-08-57-blob",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38",
+            "creation_date": "2023-02-22T16:05:10.000Z",
+            "modified_date": "2023-06-16T09:08:57.000Z",
+            "deletedAt": null,
+            "product_variants": [
+                {
+                    "id": "1-1523",
+                    "product_uid": "fb8ccb09-2f24-43c9-88d9-7fcda5f77240",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": 0,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "variant 2",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 150,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 100,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 33,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 50,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ],
+                    "product_count": 0
+                },
+                {
+                    "id": "1-1524",
+                    "product_uid": "fb8ccb09-2f24-43c9-88d9-7fcda5f77240",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": null,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "2 Kg",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 200,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 160,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 20,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 40,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "product_image": [
+                {
+                    "product_image_id": 2607,
+                    "product_uid": "fb8ccb09-2f24-43c9-88d9-7fcda5f77240",
+                    "product_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-08-57-400x400-pexels-photo-5872364.webp",
+                    "e_tag": "\"ef6df1403733c5e826c888ab670c2d1c\"",
+                    "name": "pexels-photo-5872364.webp",
+                    "image_source": "Web",
+                    "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+                }
+            ],
+            "currentVariant": {
+                "id": "1-1523",
+                "product_uid": "fb8ccb09-2f24-43c9-88d9-7fcda5f77240",
+                "price": null,
+                "discount_percent": null,
+                "discount_amount": null,
+                "gst": 0,
+                "stock": null,
+                "variant_attributes": [
+                    {
+                        "attribute_value": "variant 2",
+                        "attribute_id": 1,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Units",
+                            "data_type": "mixed"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 2,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Color Code",
+                            "data_type": "mixed"
+                        }
+                    },
+                    {
+                        "attribute_value": 150,
+                        "attribute_id": 3,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "MRP Price",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 100,
+                        "attribute_id": 4,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Selling Price",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 33,
+                        "attribute_id": 5,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Discount in %",
+                            "data_type": "percentage"
+                        }
+                    },
+                    {
+                        "attribute_value": 50,
+                        "attribute_id": 6,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Discount in ₹",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 7,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Manufacture date",
+                            "data_type": "date"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 9,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Including TAX",
+                            "data_type": "boolean"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 11,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Length (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 12,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Width (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 13,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Height (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 14,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Weight (in kg)",
+                            "data_type": "float"
+                        }
+                    }
+                ],
+                "product_count": 0
+            },
+            "related_product_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-08-57-400x400-pexels-photo-5872364.webp",
+            "selling_price": "100",
+            "mrp_price": "150",
+            "discount_price": "( 33% OFF )"
+        },
+        {
+            "product_id": 1243,
+            "product_uid": "acab34c8-d5b0-40de-989a-ae8c0e157b74",
+            "product_name": "RELEATED PRODUCT 3",
+            "product_brand": "Deep Root",
+            "category_uid": "06d81ab2-c2db-4bd3-83e4-f094f95ee565",
+            "sub_category_uid": "26030a23-0ddc-4062-a4f5-0ae48a31ee23",
+            "gst": 0,
+            "product_code": "",
+            "upc": null,
+            "key_features": "",
+            "shelf_life": "",
+            "manufacturer_details": "",
+            "marketed_by": "",
+            "country_of_origin": "",
+            "seller": "",
+            "description": "",
+            "created_by": null,
+            "modified_by": null,
+            "product_status": true,
+            "track_inventory": true,
+            "low_stock_level": null,
+            "seo_title": null,
+            "seo_description": null,
+            "seo_custom_path": null,
+            "text_content": "<p><br></p>",
+            "seo_preview_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-05-58-blob",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38",
+            "creation_date": "2023-02-22T16:05:10.000Z",
+            "modified_date": "2023-06-16T09:05:59.000Z",
+            "deletedAt": null,
+            "product_variants": [
+                {
+                    "id": "1-1525",
+                    "product_uid": "acab34c8-d5b0-40de-989a-ae8c0e157b74",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": 0,
+                    "stock": "1",
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "Variant 1",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 1100,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 1000,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 9,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 100,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ],
+                    "product_count": 0
+                },
+                {
+                    "id": "1-1526",
+                    "product_uid": "acab34c8-d5b0-40de-989a-ae8c0e157b74",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": null,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "Variant 2",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 2200,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 2000,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 9,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 200,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "product_image": [
+                {
+                    "product_image_id": 2605,
+                    "product_uid": "acab34c8-d5b0-40de-989a-ae8c0e157b74",
+                    "product_image": "https://images-zupain.s3.amazonaws.com/16-06-2023-09-05-58-400x400-pexels-photo-7319110.webp",
+                    "e_tag": "\"bfb23969f1af71c872177da34a9cc8ba\"",
+                    "name": "pexels-photo-7319110.webp",
+                    "image_source": "Web",
+                    "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+                }
+            ],
+            "currentVariant": {
+                "id": "1-1525",
+                "product_uid": "acab34c8-d5b0-40de-989a-ae8c0e157b74",
+                "price": null,
+                "discount_percent": null,
+                "discount_amount": null,
+                "gst": 0,
+                "stock": "1",
+                "variant_attributes": [
+                    {
+                        "attribute_value": "Variant 1",
+                        "attribute_id": 1,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Units",
+                            "data_type": "mixed"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 2,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Color Code",
+                            "data_type": "mixed"
+                        }
+                    },
+                    {
+                        "attribute_value": 1100,
+                        "attribute_id": 3,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "MRP Price",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 1000,
+                        "attribute_id": 4,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Selling Price",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 9,
+                        "attribute_id": 5,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Discount in %",
+                            "data_type": "percentage"
+                        }
+                    },
+                    {
+                        "attribute_value": 100,
+                        "attribute_id": 6,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Discount in ₹",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 7,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Manufacture date",
+                            "data_type": "date"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 9,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Including TAX",
+                            "data_type": "boolean"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 11,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Length (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 12,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Width (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 13,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Height (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 14,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Weight (in kg)",
+                            "data_type": "float"
+                        }
+                    }
+                ],
+                "product_count": 0
+            },
+            "related_product_image": "https://images-zupain.s3.amazonaws.com/16-06-2023-09-05-58-400x400-pexels-photo-7319110.webp",
+            "selling_price": "1000",
+            "mrp_price": "1100",
+            "discount_price": "( 9% OFF )"
+        },
+        {
+            "product_id": 1165,
+            "product_uid": "21ef3cc4-78e7-4c74-8945-ee7582f43b91",
+            "product_name": "RELATED PRODUCT 4",
+            "product_brand": "",
+            "category_uid": "babef21c-9eaa-4270-b40e-ae110c2578ac",
+            "sub_category_uid": null,
+            "gst": 0,
+            "product_code": "",
+            "upc": null,
+            "key_features": "",
+            "shelf_life": "",
+            "manufacturer_details": "",
+            "marketed_by": "",
+            "country_of_origin": "",
+            "seller": "",
+            "description": "",
+            "created_by": null,
+            "modified_by": null,
+            "product_status": true,
+            "track_inventory": false,
+            "low_stock_level": null,
+            "seo_title": null,
+            "seo_description": null,
+            "seo_custom_path": null,
+            "text_content": "",
+            "seo_preview_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-10-09-blob",
+            "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38",
+            "creation_date": "2022-12-07T06:40:03.000Z",
+            "modified_date": "2023-06-16T09:10:09.000Z",
+            "deletedAt": null,
+            "product_variants": [
+                {
+                    "id": "1-1409",
+                    "product_uid": "21ef3cc4-78e7-4c74-8945-ee7582f43b91",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": 0,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "variant",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 10100,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 10000,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 1,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 100,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ],
+                    "product_count": 0
+                },
+                {
+                    "id": "1-1410",
+                    "product_uid": "21ef3cc4-78e7-4c74-8945-ee7582f43b91",
+                    "price": null,
+                    "discount_percent": null,
+                    "discount_amount": null,
+                    "gst": null,
+                    "stock": null,
+                    "variant_attributes": [
+                        {
+                            "attribute_value": "250 g",
+                            "attribute_id": 1,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Units",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 2,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Color Code",
+                                "data_type": "mixed"
+                            }
+                        },
+                        {
+                            "attribute_value": 250,
+                            "attribute_id": 3,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "MRP Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 220,
+                            "attribute_id": 4,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Selling Price",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 12,
+                            "attribute_id": 5,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in %",
+                                "data_type": "percentage"
+                            }
+                        },
+                        {
+                            "attribute_value": 30,
+                            "attribute_id": 6,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Discount in ₹",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 7,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Manufacture date",
+                                "data_type": "date"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 9,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Including TAX",
+                                "data_type": "boolean"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 11,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Length (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 12,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Width (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 13,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Height (in cm)",
+                                "data_type": "float"
+                            }
+                        },
+                        {
+                            "attribute_value": 0,
+                            "attribute_id": 14,
+                            "description": null,
+                            "zm_attribute": {
+                                "name": "Weight (in kg)",
+                                "data_type": "float"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "product_image": [
+                {
+                    "product_image_id": 2608,
+                    "product_uid": "21ef3cc4-78e7-4c74-8945-ee7582f43b91",
+                    "product_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-10-09-400x400-pexels-photo-5872347.webp",
+                    "e_tag": "\"7aead98ffccb0eb7f8b9e6c1d5bc0c3c\"",
+                    "name": "pexels-photo-5872347.webp",
+                    "image_source": "Web",
+                    "tenant_uid": "74d7ad41-b0f1-11ed-b7c1-02e199ec8a38"
+                }
+            ],
+            "currentVariant": {
+                "id": "1-1409",
+                "product_uid": "21ef3cc4-78e7-4c74-8945-ee7582f43b91",
+                "price": null,
+                "discount_percent": null,
+                "discount_amount": null,
+                "gst": 0,
+                "stock": null,
+                "variant_attributes": [
+                    {
+                        "attribute_value": "variant",
+                        "attribute_id": 1,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Units",
+                            "data_type": "mixed"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 2,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Color Code",
+                            "data_type": "mixed"
+                        }
+                    },
+                    {
+                        "attribute_value": 10100,
+                        "attribute_id": 3,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "MRP Price",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 10000,
+                        "attribute_id": 4,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Selling Price",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 1,
+                        "attribute_id": 5,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Discount in %",
+                            "data_type": "percentage"
+                        }
+                    },
+                    {
+                        "attribute_value": 100,
+                        "attribute_id": 6,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Discount in ₹",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 7,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Manufacture date",
+                            "data_type": "date"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 9,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Including TAX",
+                            "data_type": "boolean"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 11,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Length (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 12,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Width (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 13,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Height (in cm)",
+                            "data_type": "float"
+                        }
+                    },
+                    {
+                        "attribute_value": 0,
+                        "attribute_id": 14,
+                        "description": null,
+                        "zm_attribute": {
+                            "name": "Weight (in kg)",
+                            "data_type": "float"
+                        }
+                    }
+                ],
+                "product_count": 0
+            },
+            "related_product_image": "https://images-zupain.s3.ap-south-1.amazonaws.com/16-06-2023-09-10-09-400x400-pexels-photo-5872347.webp",
+            "selling_price": "10000",
+            "mrp_price": "10100",
+            "discount_price": "( 1% OFF )"
+        }
+    ],
+    "stock": null,
+    "currentVariant": {
+        "id": "1-1527",
+        "product_uid": "f66517bd-b8b0-493e-9cc4-2d651a74394b",
+        "price": null,
+        "discount_percent": null,
+        "discount_amount": null,
+        "gst": null,
+        "stock": null,
+        "variant_attributes": [
+            {
+                "attribute_value": "variant 1",
+                "attribute_id": 1,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Units",
+                    "data_type": "mixed"
+                }
+            },
+            {
+                "attribute_value": 0,
+                "attribute_id": 2,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Color Code",
+                    "data_type": "mixed"
+                }
+            },
+            {
+                "attribute_value": 150,
+                "attribute_id": 3,
+                "description": null,
+                "zm_attribute": {
+                    "name": "MRP Price",
+                    "data_type": "float"
+                }
+            },
+            {
+                "attribute_value": 100,
+                "attribute_id": 4,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Selling Price",
+                    "data_type": "float"
+                }
+            },
+            {
+                "attribute_value": 33,
+                "attribute_id": 5,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Discount in %",
+                    "data_type": "percentage"
+                }
+            },
+            {
+                "attribute_value": 50,
+                "attribute_id": 6,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Discount in ₹",
+                    "data_type": "float"
+                }
+            },
+            {
+                "attribute_value": 0,
+                "attribute_id": 7,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Manufacture date",
+                    "data_type": "date"
+                }
+            },
+            {
+                "attribute_value": 0,
+                "attribute_id": 9,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Including TAX",
+                    "data_type": "boolean"
+                }
+            },
+            {
+                "attribute_value": 0,
+                "attribute_id": 11,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Length (in cm)",
+                    "data_type": "float"
+                }
+            },
+            {
+                "attribute_value": 0,
+                "attribute_id": 12,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Width (in cm)",
+                    "data_type": "float"
+                }
+            },
+            {
+                "attribute_value": 0,
+                "attribute_id": 13,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Height (in cm)",
+                    "data_type": "float"
+                }
+            },
+            {
+                "attribute_value": 0,
+                "attribute_id": 14,
+                "description": null,
+                "zm_attribute": {
+                    "name": "Weight (in kg)",
+                    "data_type": "float"
+                }
+            }
+        ]
+    },
+    "product_count": 0
+}

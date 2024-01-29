@@ -1,0 +1,244 @@
+@orange: #ff7700;
+@purple-color: #664BEB;
+@bgBlack: #232323;
+@white: #fff;
+@primary-text: "Nunito", sans-serif;
+
+.category .ant-table thead>tr>th {
+    font-weight: 700;
+    background: @white !important;
+    color: @white;
+    font-family: @primary-text;
+    font-size: 16px;
+}
+
+.category .ant-table tbody .ant-table-measure-row td {
+    padding: 0px !important;
+}
+
+.share-icon {
+    margin: 3px 10px 3px 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.seven div {
+    width: 100%;
+    font-family: @primary-text;
+}
+
+.category-theme-tabs {
+    &>div:nth-child(1) {
+        &::before {
+            border-bottom: 0;
+        }
+
+        .ant-tabs-nav-wrap {
+            .ant-tabs-nav-list {
+                box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+                border: 1px solid #CCCCCC;
+                border-radius: 6.5px;
+                width: 100%;
+
+                .ant-tabs-tab {
+                    margin-right: 0 !important;
+                    background: @white;
+                    border: 0;
+                    border-radius: 1px;
+                    width: 100%;
+                    padding: 10px 16px !important;
+                    display: flex;
+                    justify-content: center;
+                    font-family: @primary-text;
+
+                    &:first-child {
+                        border-radius: 5px 0 0 5px;
+                    }
+
+                    &:nth-last-child(2) {
+                        border-radius: 0 5px 5px 0;
+                    }
+
+                    &.ant-tabs-tab-active {
+                        background: #0B3D60 !important;
+                        border-color: #0B3D60 !important;
+
+                        .ant-tabs-tab-btn {
+                            color: #fff;
+                            font-family: @primary-text;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.category-collapse .ant-collapse-item .ant-collapse-content-box {
+    background: white !important;
+}
+
+.text-grey-light {
+    justify-content: left !important;
+}
+
+.img-alignment {
+    width: 100%;
+    height: 140px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.radius {
+    border-radius: 7px;
+}
+
+.check-align {
+    position: absolute;
+    left: 13px;
+    top: 2.5px;
+}
+
+.ant-table-wrapper .ant-table-row-indent+.ant-table-row-expand-icon {
+    margin-top: 11.5px;
+}
+
+.category .ant-table-tbody>tr>td {
+    padding: 6px 16px !important;
+}
+
+.seo-lable {
+    color: #8993A0 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.seo-url {
+    color: #2200cc;
+    float: right;
+    font-size: 13px;
+}
+
+.static-list {
+    border: 1px solid #b1b1b1;
+    border-style: dashed;
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.cate-image {
+    border-radius: 7px;
+    width: 50px;
+    height: 50px;
+}
+
+.ant-tree-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category .ant-tree .ant-tree-treenode {
+    width: 100% !important;
+}
+
+.cat-img-alignment{
+    display: flex;
+    justify-content: center;
+}
+
+.category .ant-tree .ant-tree-treenode .ant-tree-node-content-wrapper {
+    width: 100% !important;
+}
+
+.res-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.add-product-text {
+    color: #4c4f54;
+    font-size: 12px;
+
+    span {
+        border-bottom: 0.5px solid #4c4f54;
+    }
+}
+
+.category-ellipse {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 9rem;
+}
+
+.product-button {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #adadad;
+    color: rgba(34, 34, 34, 0.50);
+}
+.dropdown-picker-category{
+    width: 195px;
+}
+.attribute-delete{
+    color: #F84141;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) and (min-width: 330px) {
+    .category-share-popover {
+      .ant-popover-inner {
+        width: 255px !important;
+        height: 150px!important;
+        border-radius: 8px !important;
+        background: #FFF;
+      }
+      .ant-popover-content {
+        margin-right: 10px;
+      }
+    }
+    .btn-col {
+      margin-right: 10px;
+    }
+    .box .ant-pagination .ant-pagination-prev, .box .ant-pagination .ant-pagination-next{
+        margin: 1px 10px !important;
+    }
+  }
+
+  .product-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .category-product-search{
+    width: 15rem;
+    margin-right: 20px;
+  }
+
+  .product-category-select .ant-select-selection-placeholder {
+    color: #686868 !important;
+    font-family: "Nunito", sans-serif;
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .switch-container .ant-switch-disabled{
+    height: 16px !important;
+    margin-right: 5px;
+    min-width: 37px;
+  }

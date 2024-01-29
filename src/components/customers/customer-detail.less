@@ -1,0 +1,288 @@
+@primary-text: "Nunito", sans-serif;
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.box {
+    margin-bottom: 0 !important;
+}
+
+.my-2 {
+    margin: 1rem 0;
+}
+
+.br-1 {
+    border: 1px solid #eee;
+    margin-top: -1px;
+    box-shadow: none !important;
+}
+
+.br-b-1 {
+    border-top: 1px solid #eee;
+}
+
+.text-green {
+    color: #026D39;
+}
+
+.ant-collapse-item {
+    .ant-collapse-header {
+        background: #fff !important;
+    }
+
+    .ant-collapse-content-box {
+        background: #F8F8F8 0% 0% no-repeat padding-box !important;
+    }
+}
+
+.customers-container {
+    .zp_form__grid {
+        h4 {
+            color: #8993A0;
+        }
+
+        span {
+            color: #38523B;
+            font-weight: 600;
+        }
+    }
+
+    span.ant-tag {
+        border: 1px solid black !important;
+        background-color: rgb(249, 255, 243) !important;
+        color: #000 !important;
+    }
+}
+
+.customer-link {
+    color: #38523B !important;
+    font-family: @primary-text;
+
+    &:hover {
+        text-decoration: underline !important;
+        text-decoration-color: #38523B;
+    }
+}
+
+.customer-file-upload-popup-row {
+
+    .gutter-row {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+        .ant-upload {
+            width: 100%;
+        }
+    }
+}
+
+.customer-file-upload-popup {
+    .ant-btn {
+        border: 2px dashed #999;
+        width: 100%;
+    }
+}
+
+.download-customer-temp-btn {
+    float: left;
+}
+
+.import-customer-upload-model {
+    .ant-modal-footer {
+        padding: 10px 25px;
+    }
+}
+
+.customer-filter-popup-content {
+    .ant-radio-button-wrapper {
+        font-size: 14px;
+        border-radius: 5px !important;
+        background-color: white;
+        border: 1px solid #0B3D60 !important;
+    }
+
+    .ant-radio-button-wrapper:hover {
+        .text-grey-dark {
+            color: #fff;
+        }
+    }
+}
+
+.box__header.customer-box-header {
+    align-items: center;
+    gap: 5px
+}
+
+.ant-dropdown-trigger {
+    margin: 0;
+}
+
+.download-item-customer {
+    display: flex;
+    gap: 10px;
+}
+
+.shipment-main-container {
+    .ant-modal-content {
+        .ant-modal-body {
+            font-size: 14px;
+            line-height: 1.5715;
+            word-wrap: break-word;
+            width: 30rem;
+
+            .shipment-span {
+                font-size: 14px;
+                line-height: 1.5715;
+                word-wrap: break-word;
+                width: 30rem;
+            }
+        }
+    }
+}
+
+.customer-table{
+    padding: 0px 10px;
+    .ant-table-column-title{
+        color: #0b3d60 !important;
+        font-size: 15px !important;
+        font-weight: 700 !important;
+    }
+    
+    .ant-table-container{
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 32px 0px rgba(34, 34, 34, 0.15);
+      }
+      .ant-table{
+        padding: 0 !important;
+      }
+      .ant-table-thead {
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20) !important;
+        border-radius: 8px;
+      }
+      .ant-table tbody > tr > td {
+        background: none !important;
+      }
+}
+
+.upload-margin{
+    margin: 10px;
+}
+
+.cutomer-tab {
+    .ant-radio-button-wrapper {
+        font-weight: 700;
+        margin-right: 8px;
+        padding: 5px 15px 35px 15px !important;
+        background-color: white;
+        border: 1px solid #0b3d60 !important;
+        color: #0b3d60 !important;
+        border-radius: 8px;
+        font-size: 14px !important;
+        &::before{
+            width: 0px !important;
+        }
+        &:first-child {
+          border-radius: 5px 0 0 5px;
+        }
+      
+        &:last-child {
+          border-radius: 0 5px 5px 0;
+        }
+      
+        &.ant-radio-button-wrapper-checked {
+          color: #f2f2f2 !important;
+          background: #0b3d60;
+          border-color: #f2f2f2 !important;
+      
+          &::before {
+            background-color: #f2f2f2;
+          }
+      
+          &.ant-radio-button-wrapper:first-child {
+            border-right-color: #0b3d60 !important;
+          }
+        }
+      
+        &:hover:not(.ant-radio-button-wrapper-checked) {
+            background: #C8BFE7 !important;
+            color: #222222;
+            border: 1px solid #C8BFE7 !important;
+        }
+      }
+}
+
+.mob-cutomer-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mob-text-align {
+    display: flex;
+    align-items: baseline;
+}
+
+.customer-popover{
+    z-index: 99;
+}
+
+.text-color {
+    color: black;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+    .customer-box-header {
+        position: relative;
+        height: 60px;
+
+        .box-title {
+            display: none;
+        }
+    }
+    .text-primary{
+        font-size: 16px !important;
+    }
+
+    .customer-location-select {
+        position: absolute;
+        top: 60px;
+        left: 8px;
+        width: 95% !important;
+    }
+
+    .download-excel.customers-action-import {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: auto;
+    }
+
+    .download-excel.customers-action-download {
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        width: auto;
+    }
+
+    .download-customer-temp-btn {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .import-customer-upload-model {
+        .ant-modal-content{
+            .ant-modal-footer {
+                display: block !important;
+                padding: 0px 10px 10px 10px !important;
+            }
+        }
+    }
+
+}
+.ant-table tbody > tr > td {
+    background: none !important;
+  }

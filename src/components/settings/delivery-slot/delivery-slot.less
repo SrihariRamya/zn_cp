@@ -1,0 +1,227 @@
+.delivery-slot-main-container {
+  .delivery-slot-setting-styles {
+    .box__header {
+      .ant-space {
+        margin-top: 15px;
+        float: right;
+      }
+    }
+    .deliveryslot-input {
+      width: auto;
+    }
+    .deliverySlot-left-row {
+      width: 100%;
+      .ant-space {
+        width: 100%;
+      }
+      .delivery-slot-card{
+        width: 400px;
+        height: 140px;
+        border-radius: 8px;
+        border: 0.5px solid var(--Grey, #CCC);
+        background: #FFF;
+        box-shadow: 0px 2px 5px 0px rgba(11, 61, 96, 0.15);
+        padding: 22px 47px;
+      }
+    }
+  }
+  .clic-booking-container {
+    .booking-slot-container {
+      padding: 10px;
+      background-color: #d8f2f2;
+      margin-top: 8px;
+      .ant-form-item {
+        margin-bottom: 0px;
+      }
+    }
+    .delivery-slot-list-container {
+      margin-top: 16px;
+      .ant-card {
+        box-shadow: 0px 1px 6px #00000029;
+        border: none;
+        margin-bottom: 2px;
+      }
+      .ant-card-body {
+        padding: 8px 16px;
+      }
+      .box__header {
+        display: block;
+        height: 80px;
+        .ant-space {
+          margin-top: 15px;
+          float: right;
+        }
+      }
+      .deliveryslot-input {
+        width: auto;
+      }
+      .deliverySlot-left-row {
+        width: 100%;
+      }
+      .deliverySlot-left-divider {
+        display: none;
+      }
+      .delivert-slot-days-text {
+        color: #232323;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 4px;
+      }
+    }
+  }
+  .clic-btn-delivery {
+    padding: 8px;
+    line-height: 1px;
+  }
+  .btn-delivery-close{
+    background-color: transparent;
+    color: red;
+    border: none;
+    box-shadow: none;
+  }
+  .btn-delivery-close:hover{
+   color: red;
+  }
+  .btn-delivery {
+    background-color: #0B3D60 !important;
+    width: 140px;
+    height: 40px;
+    padding: 11px;
+    border-color: #0B3D60 !important;
+    border-radius: 8px !important;
+    color: #ffffff !important;
+  }
+  .btn-delivery .anticon.anticon-close {
+    color: red;
+  }
+}
+
+.delivery-slot-list{
+  .form-col{
+   order: 2;
+  }
+  .btn-col{
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .delivery-slot-list{
+    .form-col{
+     order: 1;
+    }
+    .btn-col{
+      order: 2;
+    }
+  }
+  .delivery-slot-main-container {
+    width: 100%;
+    overflow: hidden;
+    .delivery-slot-setting-styles {
+      .mobile-view-box-div{
+        border-radius: 8px;
+        border: 0.25px solid var(--Grey, #CCC);
+        background: #FFF;
+        box-shadow: 0px 2px 15px 0px rgba(11, 61, 96, 0.10);
+        padding: 15px;
+      }
+      .box__header {
+        display: flex;
+        padding: 0px;
+        .ant-space {
+          margin-top: 0px;
+        }
+      }
+
+      .deliveryslot-input {
+        width: auto;
+      }
+
+      .deliverySlot-left-row {
+        width: 100%;
+
+        .ant-space {
+          width: 100%;
+        }
+
+        .delivery-slot-card {
+          width: auto;
+          height: auto;
+          border-radius: 8px;
+          border:none;
+          background: #FFF;
+          box-shadow: none;
+          padding: 2px;
+        }
+      }
+    }
+
+    .btn-delivery-close {
+      background-color: transparent;
+      color: red;
+      border: none;
+      box-shadow: none;
+    }
+
+    .btn-delivery-close:hover {
+      color: red;
+    }
+
+    .btn-delivery {
+      background-color: #0B3D60 !important;
+      width: 120px;
+      height: 35px;
+      padding: 10px 20px;
+      border-color: #0B3D60 !important;
+      border-radius: 8px !important;
+      color: #ffffff !important;
+      font-size: 12px;
+    }
+
+    .btn-delivery .anticon.anticon-close {
+      color: red;
+    }
+  }
+}
+.delivery-slot-checkbox {
+  margin-bottom: 10px;
+  span{
+    color: #222;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .ant-checkbox-wrapper {
+    color: #000000 !important;
+    width: 100px;
+  }
+
+  .ant-checkbox-wrapper:hover {
+    color: #000000 !important;
+    border-color: #CCCCCC !important;
+  }
+
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #0B3D60 !important;
+    border-color: #0B3D60 !important;
+  }
+
+  .ant-checkbox-input:focus+.ant-checkbox-inner,
+  .ant-checkbox-input:hover+.ant-checkbox-inner {
+    border-color: #CCCCCC;
+  }
+
+  .ant-checkbox-checked:hover .ant-checkbox-inner {
+    border-color: #CCCCCC !important;
+  }
+
+  .ant-checkbox-checked:after {
+    border: 2px solid #CCCCCC !important;
+  }
+}
+.add-new-slot{
+  .ant-btn{
+    color: white;
+  }
+}

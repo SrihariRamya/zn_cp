@@ -1,0 +1,163 @@
+@main-color: #232323;
+@secondary-color: #232323;
+@table-header-bg: #e6f1ff;
+@primary-text: #565656;
+@secondary-text: #b6b6b6;
+@text-bold-dark: #1c273c;
+@text-bold-light: #121212;
+@tag-background: #f4f4f4;
+@tag-inner-text: #8993a0;
+@tag-header-text: #8993a0;
+@tag-active-bg: #32f11d;
+@tag-active-text: #13af33;
+@badge-blue-bg: #e0edff;
+@bage-light-blue-bg: #e6f1ff;
+@white-bg: #ffffff;
+@grey-text: #8492a5;
+@danger-button: "#f14343";
+@download-button: "#D0E5FF";
+
+//form label
+.ant-form-item-label>label {
+  color: @tag-inner-text !important;
+}
+
+//radio
+// .ant-radio-button-wrapper:not(:last-child) {
+//     margin-right: 20px;
+//     margin-bottom: 20px;
+//   }
+//   .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+//     color:@secondary-color!important;
+//     background:@badge-blue-bg !important;
+//     border: 0.5px solid @secondary-color!important;
+//   }
+//select
+.ant-select {
+  color: @tag-header-text !important;
+}
+
+.ant-select-multiple .ant-select-selector {
+  background-color: @tag-inner-text !important;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: @tag-background !important;
+  border-radius: 5px;
+}
+
+//input box
+.ant-input-affix-wrapper::placeholder {
+  color: #bbb !important;
+}
+
+//checkbox
+.ant-checkbox-wrapper {
+  color: @tag-header-text !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: @secondary-color !important;
+  border-color: @secondary-color !important;
+}
+
+.ant-checkbox-wrapper:hover {
+  color: @secondary-color !important;
+}
+
+
+.ant-btn-primary {
+  border-color: @main-color;
+  border-radius: 5px !important;
+  background-color: #472DC5;
+}
+
+.ant-btn-dangerous {
+  background: @danger-button !important;
+  color: @tag-background !important;
+  border-color: @danger-button !important;
+  border-radius: 5px !important;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.12) !important;
+  box-shadow: 0 2px 0 rgba(0,0,0,.045) !important;
+}
+
+.ant-form-item {
+  .ant-form-item-explain-error{
+    font-family: @primary-text;
+  }
+}
+
+.ant-btn-circle.ant-btn-primary {
+  background: #d0e5ff !important;
+  border-radius: 20px !important;
+  color: #2e78f6 !important;
+  border-color: #d0e5ff !important;
+}
+
+.ant-btn-background-ghost {
+  color: @secondary-color !important;
+  background: @tag-background !important;
+  border-radius: 5px !important;
+}
+
+.ant-single-form-item-horizontal {
+  flex-direction: row !important;
+  align-items: center !important;
+
+  >.ant-form-item-label {
+    padding: 0;
+    text-align: right !important;
+    font-weight: 600;
+  }
+
+  >.ant-form-item-control {
+    text-align: right;
+  }
+}
+
+.list_type_icons_set {
+  box-shadow: 0 0 8px #bfbfbf;
+
+  >.ant-radio-button-wrapper {
+    &:first-child {
+      border-radius: 5px 0 0 5px;
+    }
+
+    &:last-child {
+      border-radius: 0 5px 5px 0;
+    }
+
+    &.ant-radio-button-wrapper-checked {
+      color: #38523b !important;
+      background: #f2f2f2 !important;
+      border-color: #f2f2f2 !important;
+
+      &::before {
+        background-color: #f2f2f2;
+      }
+
+      &.ant-radio-button-wrapper:first-child {
+        border-right-color: #f2f2f2;
+      }
+    }
+
+    &:hover:not(.ant-radio-button-wrapper-checked) {
+      color: #f2f2f2;
+      background: #38523b !important;
+      border-color: #829a85 !important;
+    }
+  }
+}
+
+.close-icon {
+  border-radius: 5px;
+  background: 0 0;
+  color: #ccc;
+  font-size: 1.5em;
+
+  &:focus,
+  &:active,
+  &:hover {
+    color: #E74C3C !important;
+  }
+}

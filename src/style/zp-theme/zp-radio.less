@@ -1,0 +1,37 @@
+.ant-radio-button-wrapper {
+  position: relative;
+  font-weight: bold;
+  padding: 5px 25px 37px 25px;
+  height: 37px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid #664BEB;
+  border-radius: 8px;
+
+  &:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+
+  &:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+
+  &.ant-radio-button-wrapper-checked {
+    color: #f2f2f2 !important;
+    background: #472DC5;
+    border-color: #f2f2f2 !important;
+
+    &::before {
+      background-color: #f2f2f2;
+    }
+
+    &.ant-radio-button-wrapper:first-child {
+      border-right-color: #f2f2f2;
+    }
+  }
+
+  &:hover:not(.ant-radio-button-wrapper-checked) {
+    color: #5d33f4;
+    background: #f2f2f2 !important;
+  }
+}

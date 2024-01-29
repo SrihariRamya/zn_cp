@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="apperance" transform="translate(-52 -143)">
+    <rect id="base" width="22" height="22" transform="translate(52 143)" fill="#fff" opacity="0"/>
+    <path id="noun-layout-5652382" d="M140.778,69.965a.785.785,0,0,0-.783.788v17.26a.784.784,0,0,0,.783.781h17.265a.785.785,0,0,0,.783-.781V70.753a.785.785,0,0,0-.783-.788Zm.788,1.571h7.06V87.225h-7.06Zm8.629,0h7.06V78.6h-7.06Zm0,8.629h7.06v7.06h-7.06Z" transform="translate(-86.411 74.62)" fill="#232323"/>
+  </g>
+</svg>

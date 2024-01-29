@@ -1,0 +1,1790 @@
+[
+  {
+    "row": [
+      {
+        "column": [
+          {
+            "row": [
+              {
+                "column": [
+                  {
+                    "form_uid": "",
+                    "column_uid": "f45a8202-a107-41db-bda5-5db4dbd837b4",
+                    "widget_uid": "",
+                    "widget_type": "image_viewer",
+                    "column_style": {
+                      "className": "products_img_container",
+                      "width": null,
+                      "responsive": {
+                        "md": 12,
+                        "sm": 24
+                      },
+                      "show_style": false
+                    },
+                    "form_wrapper": false,
+                    "form_post_api": "",
+                    "column_properties": {
+                      "action": {
+                        "value": "",
+                        "api_type": "",
+                        "action_api": "",
+                        "action_type": "",
+                        "action_route": "",
+                        "variable_name": "",
+                        "reference_name": "",
+                        "reference_value": ""
+                      },
+                      "popover": {
+                        "title": "",
+                        "content": {
+                          "column": [],
+                          "row_uid": "92ee857d-c09a-4692-944b-5a8931e096ae",
+                          "row_style": {
+                            "alignItems": "",
+                            "show_style": false,
+                            "justifyContent": ""
+                          }
+                        },
+                        "placement": "top",
+                        "show_popover": false
+                      },
+                      "iterable": {
+                        "oddBg": "",
+                        "evenBg": "",
+                        "columnIterable": false
+                      },
+                      "required": false,
+                      "dataField": "product_image",
+                      "field_name": "",
+                      "data_source": "product",
+                      "image_viewer": {}
+                    }
+                  },
+                  {
+                    "row": [
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "75943ae1-23d0-4885-a20e-faa13e7f866b",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": null,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "0px",
+                                  "fontSize": 29,
+                                  "fontWeight": "600"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "product_name",
+                              "field_name": ""
+                            }
+                          },
+                          {
+                            "form_uid": "",
+                            "column_uid": "75943ae1-23d0-4885-a20e-faa13e7f8662",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79a9",
+                            "widget_type": "coupon-expiry-time",
+                            "column_style": {
+                              "width": null,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": "",
+                              "top": "10px"
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                "color": "#080707",
+                                "padding": "0px",
+                                "fontSize": 12,
+                                "fontWeight": "600"               
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "product_name",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "48e1ca11-07ce-4df4-b760-145d163748b2",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "7ada629a-c943-4293-9c1f-29f73f42d5bb",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": null,
+                              "show_style": false
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "4px 8px 4px 8px",
+                                  "fontSize": 13,
+                                  "fontWeight": "400"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "product_brand",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "969b6df9-1ce5-4a2c-a15b-93d8b4afd7f6",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "8fc8d73a-c1fc-4679-bf85-2669adb04207",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": "auto",
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "label_type": "currency",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "4px 8px 4px 8px",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "selling_price",
+                              "field_name": ""
+                            }
+                          },
+                          {
+                            "form_uid": "",
+                            "column_uid": "1aac3c0d-7c22-47e3-917a-c80e1a3acc56",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": "auto",
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "label_type": "currency",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "4px 2px 4px 2px",
+                                  "fontSize": 16,
+                                  "fontWeight": "400",
+                                  "textDecorationLine": "line-through",
+                                  "textDecorationColor": "#080707"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "mrp_price",
+                              "field_name": ""
+                            }
+                          },
+                          {
+                            "form_uid": "",
+                            "column_uid": "f2d3c8a3-c1ff-4379-a29a-6a25810f8ca0",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": "auto",
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "color": "#ffa05f",
+                                  "padding": "4px 8px 4px 8px",
+                                  "fontSize": 17,
+                                  "fontWeight": "400"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "discount_price",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "7f9db3d6-15a5-4456-b4a4-351424fb3df1",
+                        "row_style": {
+                          "gap": "5px",
+                          "alignItems": "center",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "f9caf8d2-0e4f-4039-af6b-3413285ffbef",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "4px 0px 10px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "(No additional tax may apply on checkout)",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "fontSize": 13,
+                                  "fontWeight": "400"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "c2e8ffc3-d015-4ffb-bb9e-48701a24f4bd",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "ee4e7d50-1b63-4e5f-9d09-85e5e9a33ca8",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "0px 0px 0px 0px",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "a03eb9f9-856e-4f30-a844-55be6ca5c9b2",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "73e98407-2110-4881-8f45-c3ed3a5f33c0",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "0px 0px 5px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "SELECT VARIANT",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "0px 0px 0px 0px",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "f97565a3-56ab-4750-9f8d-8952c034dc95",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "4c5835f8-f99c-4d70-ad76-77d04df3622d",
+                            "widget_uid": "e0ee5a2d-c0f5-484f-88e4-44d3b3de10de",
+                            "widget_type": "variant_selector",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "4px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "3px 5px 5px 5px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "3 LEFT",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "4px 8px 4px 8px",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "button": {
+                                "icon": "ShoppingCartOutlined",
+                                "size": "",
+                                "type": "",
+                                "block": false,
+                                "color": "#080707",
+                                "shape": "",
+                                "title": "ADD TO CART",
+                                "width": "",
+                                "btn_align": "left",
+                                "icon_position": "",
+                                "backgroundColor": "#ffa7a3",
+                                "is_submit_button": false,
+                                "is_downlaod_button": false
+                              },
+                              "required": false,
+                              "dataField": "product_variants",
+                              "field_name": ""
+                            }
+                          },
+                          {
+                            "form_uid": "",
+                            "column_uid": "b27e63d6-02cd-42e4-a71b-dbc1293a874b",
+                            "widget_uid": "d1d34464-6d04-48f0-93d9-858d755018ff",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "0px 0px 0px 0px",
+                                  "fontSize": 10,
+                                  "fontWeight": "500"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "d9858e34-6d34-400c-b16e-e2987db20b51",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "4c5835f8-f99c-4d70-ad76-77d04df3622e",
+                            "widget_uid": "e0ee5a2d-c0f5-484f-88e4-44d3b3de10de",
+                            "widget_type": "button",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "4px 0px 10px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "3px 5px 5px 5px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "4px 8px 4px 8px",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "button": {
+                                "icon": "ShoppingCartOutlined",
+                                "size": "",
+                                "type": "",
+                                "block": false,
+                                "color": "#080707",
+                                "shape": "",
+                                "title": "ADD TO CART",
+                                "width": "",
+                                "btn_align": "left",
+                                "icon_position": "",
+                                "backgroundColor": "#ffa7a3",
+                                "is_submit_button": false,
+                                "is_downlaod_button": false
+                              },
+                              "required": false
+                            }
+                          }
+                        ],
+                        "row_uid": "d9858e34-6d34-400c-b16e-e2987db20b51",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "4c5835f8-f99c-4d70-ad76-77d04df36229",
+                            "widget_uid": "e0ee5a2d-c0f5-484f-88e4-44d3b3de10de",
+                            "widget_type": "coupon-discount",
+                            "column_style": {
+                              "width": 198,
+                              "height": null,
+                              "margin": "4px 0px 10px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "3px 5px 5px 5px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "4px 8px 4px 8px",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false
+                            }
+                          }
+                        ],
+                        "row_uid": "d9858e34-6d34-400c-b16e-e2987db20b59",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "1f019898-dd51-41b1-bfd0-bad0daa702c5",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8432f79ab",
+                            "widget_type": "text_content",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "3 LEFT",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "text_content",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "93c888b4-540e-41f8-9294-a5cb34db3c63",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      },
+                      {
+                        "column": [
+                          {
+                            "form_uid": "",
+                            "column_uid": "1f019898-dd51-41b1-bfd0-bad0daa102c5",
+                            "widget_uid": "6661b7e5-7601-4201-b85b-e8a8431f79ab",
+                            "widget_type": "collapse",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "93c888b4-540e-41f1-9294-a5cb34db3c13",
+                        "row_style": {
+                          "alignItems": "",
+                          "show_style": false,
+                          "justifyContent": ""
+                        }
+                      }
+                    ],
+                    "form_uid": "",
+                    "column_uid": "a7b6cde4-f70a-4ba3-b9cf-e49f75049d84",
+                    "widget_uid": "",
+                    "widget_type": "",
+                    "column_style": {
+                      "className": "products_scroll",
+                      "width": null,
+                      "responsive": {
+                        "md": 12,
+                        "sm": 24
+                      },
+                      "show_style": false
+                    },
+                    "form_wrapper": false,
+                    "form_post_api": "",
+                    "column_properties": {
+                      "label": {
+                        "label_name": "",
+                        "show_label": false,
+                        "labelStyle": {}
+                      },
+                      "action": {
+                        "value": "",
+                        "api_type": "",
+                        "action_api": "",
+                        "action_type": "",
+                        "action_route": "",
+                        "variable_name": "",
+                        "reference_name": "",
+                        "reference_value": ""
+                      },
+                      "popover": {
+                        "title": "",
+                        "content": {
+                          "column": [],
+                          "row_uid": "c05053d6-b3bf-4dca-9738-ed490ba0242f",
+                          "row_style": {
+                            "alignItems": "",
+                            "show_style": false,
+                            "justifyContent": ""
+                          }
+                        },
+                        "placement": "top",
+                        "show_popover": false
+                      },
+                      "iterable": {
+                        "oddBg": "",
+                        "evenBg": "",
+                        "columnIterable": false
+                      },
+                      "required": false,
+                      "dataField": "",
+                      "field_name": "",
+                      "data_source": ""
+                    }
+                  }
+                ],
+                "row_uid": "ae107864-03cd-4ba2-bb82-c5775c67bdba",
+                "row_style": {
+                  "alignItems": "",
+                  "show_style": false,
+                  "justifyContent": ""
+                }
+              }
+            ],
+            "form_uid": "",
+            "column_uid": "e61bb140-24c5-410d-822f-9152b66eb298",
+            "widget_uid": "",
+            "widget_type": "",
+            "column_style": {
+              "width": 24,
+              "height": null,
+              "margin": "0px 0px 0px 0px",
+              "padding": "0px 0px 0px 0px",
+              "show_style": true,
+              "borderColor": "",
+              "borderStyle": "",
+              "borderWidth": "0px 0px 0px 0px",
+              "borderRadius": "0px 0px 0px 0px",
+              "backgroundColor": ""
+            },
+            "form_wrapper": false,
+            "form_post_api": "",
+            "column_properties": {
+              "label": {
+                "label_name": "",
+                "show_label": false,
+                "labelStyle": {}
+              },
+              "action": {
+                "value": "",
+                "api_type": "",
+                "action_api": "",
+                "action_type": "",
+                "action_route": "",
+                "variable_name": "",
+                "reference_name": "",
+                "reference_value": ""
+              },
+              "popover": {
+                "title": "",
+                "content": {
+                  "column": [],
+                  "row_uid": "c9da7d0a-002a-4bc2-9e70-c63a73dbca2e",
+                  "row_style": {
+                    "alignItems": "",
+                    "show_style": false,
+                    "justifyContent": ""
+                  }
+                },
+                "placement": "top",
+                "show_popover": false
+              },
+              "iterable": {
+                "oddBg": "",
+                "evenBg": "",
+                "columnIterable": false
+              },
+              "required": false,
+              "dataField": "rows",
+              "field_name": "",
+              "data_source": ""
+            }
+          }
+        ],
+        "row_uid": "b8349eed-5add-48f9-88bc-098ec438fe7e",
+        "row_style": {
+          "alignItems": "",
+          "show_style": false,
+          "justifyContent": "",
+          "margin":"0px 0px 30px 0px"
+        }
+      },
+      {
+        "column": [
+          {
+            "row": [
+              {
+                "column": [
+                  {
+                    "form_uid": "",
+                    "column_uid": "b27e63d6-02cd-42e4-a71b-dbc1293a874a",
+                    "widget_uid": "d1d34464-6d04-48f0-93d9-858d755018ff",
+                    "widget_type": "label",
+                    "column_style": {
+                      "className": "product_title",
+                      "width": 24,
+                      "height": null,
+                      "margin": "0px 0px 0px 0px",
+                      "padding": "0px 20px 0px 20px",
+                      "show_style": true,
+                      "borderColor": "",
+                      "borderStyle": "",
+                      "borderWidth": "0px 0px 0px 0px",
+                      "borderRadius": "0px 0px 0px 0px",
+                      "backgroundColor": ""
+                    },
+                    "form_wrapper": false,
+                    "form_post_api": "",
+                    "column_properties": {
+                      "label": {
+                        "label_name": "Related Products",
+                        "labelStyle": {
+                          "color": "#080707",
+                          "padding": "0px 0px 0px 0px",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        }
+                      },
+                      "action": {
+                        "value": "",
+                        "api_type": "",
+                        "action_api": "",
+                        "action_type": "",
+                        "action_route": "",
+                        "variable_name": "",
+                        "reference_name": "",
+                        "reference_value": ""
+                      },
+                      "required": false,
+                      "field_name": ""
+                    }
+                  }
+                ],
+                "row_uid": "7f9c7eb5-6114-4ef7-9ad7-4d499aa61d81",
+                "row_style": {
+                  "alignItems": "",
+                  "show_style": false,
+                  "justifyContent": ""
+                }
+              },
+              {
+                "column": [
+                  {
+                    "row": [
+                      {
+                        "column": [
+                          {
+                            "row": [
+                              {
+                                "column": [
+                                  {
+                                    "form_uid": "",
+                                    "column_uid": "54f27523-9214-415e-8a80-b8beb08b6500",
+                                    "widget_uid": "ac4a6daf-7e88-4fa5-80e3-5e1e63c6599d",
+                                    "widget_type": "image",
+                                    "column_style": {
+                                      "width": 24,
+                                      "height": null,
+                                      "margin": "0px 0px 0px 0px",
+                                      "padding": "0px 0px 0px 0px",
+                                      "show_style": true,
+                                      "borderColor": "#a6a6a6",
+                                      "borderStyle": "",
+                                      "borderWidth": "1px 1px 1px 1px",
+                                      "borderRadius": "0px 0px 0px 0px",
+                                      "backgroundColor": ""
+                                    },
+                                    "form_wrapper": false,
+                                    "form_post_api": "",
+                                    "column_properties": {
+                                      "image": {
+                                        "alt": "",
+                                        "src": "",
+                                        "width": "",
+                                        "height": 266,
+                                        "preview": false,
+                                        "img_style": {
+                                          "objectFit": "cover"
+                                        }
+                                      },
+                                      "label": {
+                                        "label_name": "",
+                                        "show_label": false,
+                                        "labelStyle": {}
+                                      },
+                                      "action": {
+                                        "value": "",
+                                        "api_type": "",
+                                        "action_api": "",
+                                        "action_type": "route",
+                                        "action_route": "",
+                                        "variable_name": "",
+                                        "reference_name": "",
+                                        "reference_value": ""
+                                      },
+                                      "required": false,
+                                      "dataField": "related_product_image"
+                                    }
+                                  },
+                                  {
+                                    "row": [
+                                      {
+                                        "column": [
+                                          {
+                                            "form_uid": "",
+                                            "column_uid": "d403bf0f-caa9-44d8-ae69-fe2dfd22fd36",
+                                            "widget_uid": "efab2af6-4d33-4eeb-a5e3-67a26726f065",
+                                            "widget_type": "button",
+                                            "column_style": {
+                                              "width": null,
+                                              "show_style": false
+                                            },
+                                            "form_wrapper": false,
+                                            "form_post_api": "",
+                                            "column_properties": {
+                                              "label": {
+                                                "label_name": "",
+                                                "show_label": false,
+                                                "labelStyle": {}
+                                              },
+                                              "action": {
+                                                "value": "",
+                                                "api_type": "",
+                                                "action_api": "",
+                                                "action_type": "",
+                                                "action_route": "",
+                                                "variable_name": "",
+                                                "reference_name": "",
+                                                "reference_value": ""
+                                              },
+                                              "button": {
+                                                "icon": "ShoppingCartOutlined",
+                                                "btn_variant":"related_cart_button",
+                                                "size": "",
+                                                "type": "",
+                                                "block": false,
+                                                "color": "",
+                                                "shape": "",
+                                                "title": "",
+                                                "width": "",
+                                                "icon_position": "",
+                                                "backgroundColor": "",
+                                                "is_submit_button": false,
+                                                "is_downlaod_button": false
+                                              },
+                                              "required": false,
+                                              "field_name": ""
+                                            }
+                                          }
+                                        ],
+                                        "row_uid": "98f5de25-4e12-4c96-884c-7f272f5d3bac",
+                                        "row_style": {
+                                          "alignItems": "",
+                                          "show_style": false,
+                                          "justifyContent": ""
+                                        }
+                                      }
+                                    ],
+                                    "form_uid": "",
+                                    "column_uid": "ede50729-6c5a-4202-982a-45eca5ce121a",
+                                    "widget_uid": "",
+                                    "widget_type": "",
+                                    "column_style": {
+                                      "className": "related_products_cart",
+                                      "width": 24,
+                                      "height": null,
+                                      "margin": "0px 0px 0px 0px",
+                                      "padding": "0px 0px 0px 0px",
+                                      "show_style": true,
+                                      "borderColor": "",
+                                      "borderStyle": "",
+                                      "borderWidth": "0px 0px 0px 0px",
+                                      "borderRadius": "0px 0px 0px 0px",
+                                      "backgroundColor": ""
+                                    },
+                                    "form_wrapper": false,
+                                    "form_post_api": "",
+                                    "column_properties": {
+                                      "label": {
+                                        "label_name": "",
+                                        "show_label": false,
+                                        "labelStyle": {}
+                                      },
+                                      "action": {
+                                        "value": "",
+                                        "api_type": "",
+                                        "action_api": "",
+                                        "action_type": "",
+                                        "action_route": "",
+                                        "variable_name": "",
+                                        "reference_name": "",
+                                        "reference_value": ""
+                                      },
+                                      "popover": {
+                                        "title": "",
+                                        "content": {
+                                          "column": [],
+                                          "row_uid": "e09b651e-6069-4e6d-90e2-92c06533649b",
+                                          "row_style": {
+                                            "alignItems": "",
+                                            "show_style": false,
+                                            "justifyContent": ""
+                                          }
+                                        },
+                                        "placement": "top",
+                                        "show_popover": false
+                                      },
+                                      "iterable": {
+                                        "oddBg": "",
+                                        "evenBg": "",
+                                        "columnIterable": false
+                                      },
+                                      "required": false,
+                                      "dataField": "",
+                                      "field_name": "",
+                                      "data_source": ""
+                                    }
+                                  }
+                                ],
+                                "row_uid": "78c0240f-cf94-4627-99c6-4ec39cb5d129",
+                                "row_style": {
+                                  "className": "related_products_img",
+                                  "height": null,
+                                  "margin": "0px 0px 0px 0px",
+                                  "padding": "0px 0px 0px 0px",
+                                  "alignItems": "",
+                                  "show_style": true,
+                                  "borderColor": "",
+                                  "borderStyle": "",
+                                  "borderWidth": "0px 0px 0px 0px",
+                                  "borderRadius": "0px 0px 0px 0px",
+                                  "justifyContent": "",
+                                  "backgroundColor": ""
+                                }
+                              }
+                            ],
+                            "form_uid": "",
+                            "column_uid": "54f27523-9214-415e-8a80-b8beb08b6599",
+                            "widget_uid": "",
+                            "widget_type": "",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "show_label": false,
+                                "labelStyle": {}
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": ""
+                            }
+                          },
+                          {
+                            "form_uid": "",
+                            "column_uid": "3fa342b4-563b-4d35-8dc0-8aac7f4db144",
+                            "widget_uid": "927d754d-9758-4325-b0fa-cda06c9778ba",
+                            "widget_type": "label",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "color": "#080707",
+                                  "padding": "0px 0px 0px 0px",
+                                  "fontSize": 14,
+                                  "textAlign": "center",
+                                  "fontWeight": "600"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "product_name",
+                              "field_name": ""
+                            }
+                          },
+                          {
+                            "row": [
+                              {
+                                "column": [
+                                  {
+                                    "row": [
+                                      {
+                                        "column": [
+                                          {
+                                            "form_uid": "",
+                                            "column_uid": "2fdd8749-408e-4a98-bc13-47e7655bcff1",
+                                            "widget_uid": "477cfedd-a01b-4346-b599-10ec18d4f3a8",
+                                            "widget_type": "label",
+                                            "column_style": {
+                                              "width": "auto",
+                                              "height": null,
+                                              "margin": "0px 0px 0px 0px",
+                                              "padding": "0px 0px 0px 0px",
+                                              "show_style": true,
+                                              "borderColor": "",
+                                              "borderStyle": "",
+                                              "borderWidth": "0px 0px 0px 0px",
+                                              "borderRadius": "0px 0px 0px 0px",
+                                              "backgroundColor": ""
+                                            },
+                                            "form_wrapper": false,
+                                            "form_post_api": "",
+                                            "column_properties": {
+                                              "label": {
+                                                "label_name": "",
+                                                "label_type": "currency",
+                                                "labelStyle": {
+                                                  "color": "#080707",
+                                                  "padding": "0px 2px 0px 2px",
+                                                  "fontSize": 15,
+                                                  "fontWeight": "700"
+                                                }
+                                              },
+                                              "action": {
+                                                "value": "",
+                                                "api_type": "",
+                                                "action_api": "",
+                                                "action_type": "",
+                                                "action_route": "",
+                                                "variable_name": "",
+                                                "reference_name": "",
+                                                "reference_value": ""
+                                              },
+                                              "required": false,
+                                              "dataField": "selling_price",
+                                              "field_name": ""
+                                            }
+                                          },
+                                          {
+                                            "form_uid": "",
+                                            "column_uid": "1d2f3103-6db8-48dd-9477-de35d304433a",
+                                            "widget_uid": "477cfedd-a01b-4346-b599-10ec18d4f3a8",
+                                            "widget_type": "label",
+                                            "column_style": {
+                                              "width": "auto",
+                                              "height": null,
+                                              "margin": "1px 0px 1px 0px",
+                                              "padding": "0px 0px 0px 0px",
+                                              "show_style": true,
+                                              "borderColor": "",
+                                              "borderStyle": "",
+                                              "borderWidth": "0px 0px 0px 0px",
+                                              "borderRadius": "0px 0px 0px 0px",
+                                              "backgroundColor": ""
+                                            },
+                                            "form_wrapper": false,
+                                            "form_post_api": "",
+                                            "column_properties": {
+                                              "label": {
+                                                "label_name": "",
+                                                "label_type": "currency",
+                                                "labelStyle": {
+                                                  "color": "#707070",
+                                                  "padding": "0px 2px 0px 2px",
+                                                  "fontSize": 11,
+                                                  "fontWeight": "400",
+                                                  "textDecorationLine": "line-through",
+                                                  "textDecorationColor": "#707070"
+                                                }
+                                              },
+                                              "action": {
+                                                "value": "",
+                                                "api_type": "",
+                                                "action_api": "",
+                                                "action_type": "",
+                                                "action_route": "",
+                                                "variable_name": "",
+                                                "reference_name": "",
+                                                "reference_value": ""
+                                              },
+                                              "required": false,
+                                              "dataField": "mrp_price",
+                                              "field_name": ""
+                                            }
+                                          },
+                                          {
+                                            "form_uid": "",
+                                            "column_uid": "a6d4cbc5-9628-43bb-a1c6-af0d080da70c",
+                                            "widget_uid": "477cfedd-a01b-4346-b599-10ec18d4f3a8",
+                                            "widget_type": "label",
+                                            "column_style": {
+                                              "width": "auto",
+                                              "height": null,
+                                              "margin": "0px 0px 0px 0px",
+                                              "padding": "0px 0px 0px 0px",
+                                              "show_style": true,
+                                              "borderColor": "",
+                                              "borderStyle": "",
+                                              "borderWidth": "0px 0px 0px 0px",
+                                              "borderRadius": "0px 0px 0px 0px",
+                                              "backgroundColor": ""
+                                            },
+                                            "form_wrapper": false,
+                                            "form_post_api": "",
+                                            "column_properties": {
+                                              "label": {
+                                                "label_name": "",
+                                                "labelStyle": {
+                                                  "color": "#ffa05f",
+                                                  "padding": "0px 2px 0px 2px",
+                                                  "fontSize": 13,
+                                                  "fontWeight": "400"
+                                                }
+                                              },
+                                              "action": {
+                                                "value": "",
+                                                "api_type": "",
+                                                "action_api": "",
+                                                "action_type": "",
+                                                "action_route": "",
+                                                "variable_name": "",
+                                                "reference_name": "",
+                                                "reference_value": ""
+                                              },
+                                              "required": false,
+                                              "dataField": "discount_price",
+                                              "field_name": ""
+                                            }
+                                          }
+                                        ],
+                                        "row_uid": "2e6a371f-4182-43df-b28e-3641fd0245a8",
+                                        "row_style": {
+                                          "gap": "5px",
+                                          "height": null,
+                                          "margin": "0px 0px 0px 0px",
+                                          "padding": "0px 0px 0px 0px",
+                                          "alignItems": "center",
+                                          "show_style": true,
+                                          "borderColor": "",
+                                          "borderStyle": "",
+                                          "borderWidth": "0px 0px 0px 0px",
+                                          "borderRadius": "0px 0px 0px 0px",
+                                          "justifyContent": "center",
+                                          "backgroundColor": ""
+                                        }
+                                      }
+                                    ],
+                                    "form_uid": "",
+                                    "column_uid": "85423e39-cf62-4f4b-b7a1-bdc439d83e85",
+                                    "widget_uid": "",
+                                    "widget_type": "",
+                                    "column_style": {
+                                      "width": 20,
+                                      "height": null,
+                                      "margin": "0px 0px 0px 0px",
+                                      "padding": "0px 0px 0px 0px",
+                                      "show_style": true,
+                                      "borderColor": "",
+                                      "borderStyle": "",
+                                      "borderWidth": "0px 0px 0px 0px",
+                                      "borderRadius": "0px 0px 0px 0px",
+                                      "backgroundColor": ""
+                                    },
+                                    "form_wrapper": false,
+                                    "form_post_api": "",
+                                    "column_properties": {
+                                      "label": {
+                                        "label_name": "",
+                                        "show_label": false,
+                                        "labelStyle": {}
+                                      },
+                                      "action": {
+                                        "value": "",
+                                        "api_type": "",
+                                        "action_api": "",
+                                        "action_type": "",
+                                        "action_route": "",
+                                        "variable_name": "",
+                                        "reference_name": "",
+                                        "reference_value": ""
+                                      },
+                                      "popover": {
+                                        "title": "",
+                                        "content": {
+                                          "column": [],
+                                          "row_uid": "ba0df2ad-f754-4e1d-9cef-e688cd4d637f",
+                                          "row_style": {
+                                            "alignItems": "",
+                                            "show_style": false,
+                                            "justifyContent": ""
+                                          }
+                                        },
+                                        "placement": "top",
+                                        "show_popover": false
+                                      },
+                                      "iterable": {
+                                        "oddBg": "",
+                                        "evenBg": "",
+                                        "columnIterable": false
+                                      },
+                                      "required": false,
+                                      "dataField": "",
+                                      "field_name": "",
+                                      "data_source": ""
+                                    }
+                                  }
+                                ],
+                                "row_uid": "c126ece6-f4ee-429c-ac12-fe1827aeb175",
+                                "row_style": {
+                                  "height": null,
+                                  "margin": "0px 0px 0px 0px",
+                                  "padding": "0px 0px 0px 0px",
+                                  "alignItems": "bottom",
+                                  "show_style": true,
+                                  "borderColor": "",
+                                  "borderStyle": "",
+                                  "borderWidth": "0px 0px 0px 0px",
+                                  "borderRadius": "0px 0px 0px 0px",
+                                  "justifyContent": "center",
+                                  "backgroundColor": ""
+                                }
+                              }
+                            ],
+                            "form_uid": "",
+                            "column_uid": "6f76c8ca-fa11-4b6e-8973-1a9234dc17f2",
+                            "widget_uid": "927d754d-9758-4325-b0fa-cda06c9778ba",
+                            "widget_type": "",
+                            "column_style": {
+                              "width": 24,
+                              "height": null,
+                              "margin": "0px 0px 0px 0px",
+                              "padding": "0px 0px 0px 0px",
+                              "show_style": true,
+                              "borderColor": "",
+                              "borderStyle": "",
+                              "borderWidth": "0px 0px 0px 0px",
+                              "borderRadius": "0px 0px 0px 0px",
+                              "backgroundColor": ""
+                            },
+                            "form_wrapper": false,
+                            "form_post_api": "",
+                            "column_properties": {
+                              "label": {
+                                "label_name": "",
+                                "labelStyle": {
+                                  "padding": "0px 0px 0px 0px"
+                                }
+                              },
+                              "action": {
+                                "value": "",
+                                "api_type": "",
+                                "action_api": "",
+                                "action_type": "",
+                                "action_route": "",
+                                "variable_name": "",
+                                "reference_name": "",
+                                "reference_value": ""
+                              },
+                              "required": false,
+                              "dataField": "",
+                              "field_name": ""
+                            }
+                          }
+                        ],
+                        "row_uid": "78c0240f-cf94-4627-99c6-4ec39cb5d127",
+                        "row_style": {
+                          "className": "minHeight",
+                          "height": null,
+                          "margin": "0px 0px 0px 0px",
+                          "padding": "0px 0px 0px 0px",
+                          "alignItems": "",
+                          "show_style": true,
+                          "borderColor": "#a6a6a6",
+                          "borderStyle": "solid",
+                          "borderWidth": "1px 1px 1px 1px",
+                          "borderRadius": "0px 0px 0px 0px",
+                          "justifyContent": "",
+                          "backgroundColor": ""
+                        }
+                      }
+                    ],
+                    "form_uid": "",
+                    "column_uid": "244fd6a7-429f-4fa0-90ed-4cc275a8ffd2",
+                    "widget_uid": "",
+                    "widget_type": "",
+                    "column_style": {
+                      "className": "products",
+                      "width": 6,
+                      "height": null,
+                      "margin": "0px 0px 0px 0px",
+                      "padding": "0px 0px 0px 0px",
+                      "responsive": {
+                        "lg": 6,
+                        "md": 8,
+                        "sm": 12,
+                        "xs": 12
+                      },
+                      "show_style": true,
+                      "borderColor": "",
+                      "borderStyle": "",
+                      "borderWidth": "0px 0px 0px 0px",
+                      "borderRadius": "0px 0px 0px 0px",
+                      "backgroundColor": ""
+                    },
+                    "form_wrapper": false,
+                    "form_post_api": "",
+                    "column_properties": {
+                      "label": {
+                        "label_name": "",
+                        "show_label": false,
+                        "labelStyle": {}
+                      },
+                      "action": {
+                        "value": "",
+                        "api_type": "",
+                        "action_api": "",
+                        "action_type": "",
+                        "action_route": "",
+                        "variable_name": "",
+                        "reference_name": "",
+                        "reference_value": ""
+                      },
+                      "popover": {
+                        "title": "",
+                        "content": {
+                          "column": [],
+                          "row_uid": "01ef2d7c-a0d2-4f65-9bee-99f68f7c55bc",
+                          "row_style": {
+                            "alignItems": "",
+                            "show_style": false,
+                            "justifyContent": ""
+                          }
+                        },
+                        "placement": "top",
+                        "show_popover": false
+                      },
+                      "iterable": {
+                        "oddBg": "",
+                        "evenBg": "",
+                        "columnIterable": true
+                      },
+                      "required": false,
+                      "dataField": "related_product",
+                      "field_name": "",
+                      "data_source": ""
+                    }
+                  }
+                ],
+                "row_uid": "1c752e5c-9a1a-4404-8b7c-e06c73a4d2cd",
+                "row_style": {
+                  "className": "related_products",
+                  "alignItems": "",
+                  "show_style": false,
+                  "justifyContent": ""
+                }
+              }
+            ],
+            "form_uid": "",
+            "column_uid": "d92dd9b8-7d7e-4372-bd7e-03990cbceeca",
+            "widget_uid": "",
+            "widget_type": "",
+            "column_style": {
+              "width": null,
+              "height": null,
+              "margin": "0px 0px 0px 0px",
+              "padding": "10px 0px 10px 0px",
+              "show_style": true,
+              "borderColor": "#a6a6a6",
+              "borderStyle": "solid",
+              "borderWidth": "2px 0px 0px 0px",
+              "borderRadius": "0px 0px 0px 0px",
+              "backgroundColor": ""
+            },
+            "form_wrapper": false,
+            "form_post_api": "",
+            "column_properties": {
+              "label": {
+                "label_name": "",
+                "show_label": false,
+                "labelStyle": {}
+              },
+              "action": {
+                "value": "",
+                "api_type": "",
+                "action_api": "",
+                "action_type": "",
+                "action_route": "",
+                "variable_name": "",
+                "reference_name": "",
+                "reference_value": ""
+              },
+              "popover": {
+                "title": "",
+                "content": {
+                  "column": [],
+                  "row_uid": "a334489f-8d70-4f17-8183-dc40bae6319c",
+                  "row_style": {
+                    "alignItems": "",
+                    "show_style": false,
+                    "justifyContent": ""
+                  }
+                },
+                "placement": "top",
+                "show_popover": false
+              },
+              "iterable": {
+                "oddBg": "",
+                "evenBg": "",
+                "columnIterable": false
+              },
+              "required": false,
+              "dataField": "",
+              "field_name": "",
+              "data_source": ""
+            }
+          }
+        ],
+        "row_uid": "23645c43-fce9-4f36-a695-8a2c1673173f",
+        "row_style": {
+          "height": null,
+          "margin": "0px 0px 0px 0px",
+          "padding": "0px 0px 0px 0px",
+          "alignItems": "",
+          "show_style": true,
+          "borderColor": "",
+          "borderStyle": "",
+          "borderWidth": "0px 0px 0px 0px",
+          "borderRadius": "0px 0px 0px 0px",
+          "justifyContent": "",
+          "backgroundColor": ""
+        }
+      }
+    ],
+    "section_uid": "1542abe3-bdaa-4398-b6d8-efc93a807f9e",
+    "section_style": {
+      "width": null,
+      "height": null,
+      "margin": "0px 0px 0px 0px",
+      "padding": "0px 0px 0px 0px",
+      "className": "products_section",
+      "show_style": true,
+      "borderColor": "",
+      "borderStyle": "",
+      "borderWidth": "0px 0px 0px 0px",
+      "borderRadius": "0px 0px 0px 0px",
+      "backgroundColor": "#ffffff"
+    },
+    "section_properties": {
+      "title": {
+        "show_title": false,
+        "title_style": {},
+        "section_title": ""
+      },
+      "where": "",
+      "data_source": "https://dev-customer.zupain.com/api/v1/product?appType=B2C&product_uid=f66517bd-b8b0-493e-9cc4-2d651a74394b"
+    }
+  }
+]

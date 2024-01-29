@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.488" height="25.041" viewBox="0 0 46.488 25.041">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14" height="4" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1318" data-name="Group 1318" transform="translate(-714.83 -527.959)">
+    <path id="Icon_awesome-angle-up" data-name="Icon awesome-angle-up" d="M8.842.351l6.792,6.792a1.194,1.194,0,0,1,0,1.693L14.5,9.965a1.194,1.194,0,0,1-1.693,0L7.993,5.156,3.179,9.97a1.194,1.194,0,0,1-1.693,0L.352,8.841a1.194,1.194,0,0,1,0-1.693L7.144.356A1.2,1.2,0,0,1,8.842.351Z" transform="translate(715.881 544.994) rotate(-90)" fill="#707070" stroke="#fff" stroke-linecap="square" stroke-linejoin="round" stroke-width="2.1"/>
+    <path id="Icon_awesome-angle-up-2" data-name="Icon awesome-angle-up" d="M8.842,9.97l6.792-6.792a1.194,1.194,0,0,0,0-1.693L14.5.357a1.194,1.194,0,0,0-1.693,0L7.993,5.166,3.179.352a1.194,1.194,0,0,0-1.693,0L.352,1.481a1.194,1.194,0,0,0,0,1.693L7.144,9.965A1.2,1.2,0,0,0,8.842,9.97Z" transform="translate(749.947 544.994) rotate(-90)" fill="#707070" stroke="#fff" stroke-linecap="square" stroke-linejoin="round" stroke-width="2.1"/>
+    <g id="Group_43" data-name="Group 43" transform="translate(729 528.274)">
+      <path id="Path_35" data-name="Path 35" d="M1.407-.5H15.675a2.413,2.413,0,0,1,1.907,1.907V15.675a2.413,2.413,0,0,1-1.907,1.907H1.407A2.413,2.413,0,0,1-.5,15.675V1.407A2.413,2.413,0,0,1,1.407-.5ZM1.548.595Q8.541.586,15.534.612a1.34,1.34,0,0,1,.936.936q.035,3.867,0,7.734-1.319-1.658-2.7-3.267a1.471,1.471,0,0,0-1.8.035L7,11.013Q6.058,10.19,5.08,9.406a1.5,1.5,0,0,0-1.766.141q-1.335,1.176-2.7,2.313Q.577,6.7.612,1.548A1.408,1.408,0,0,1,1.548.595ZM4.9,2.82A1.532,1.532,0,0,1,6.652,4.056a1.484,1.484,0,1,1-2.949.23A1.616,1.616,0,0,1,4.9,2.82Zm7.982,3.991a.581.581,0,0,1,.265.141l3.32,4.1q.035,2.243,0,4.485a1.34,1.34,0,0,1-.936.936q-6.993.035-13.986,0a1.34,1.34,0,0,1-.936-.936q-.035-1.112,0-2.225L3.95,10.466a.867.867,0,0,1,.353-.194q.108.039.212.088L6.7,12.2a.577.577,0,0,0,.742-.035q2.577-2.63,5.192-5.227A.8.8,0,0,1,12.885,6.811Z" transform="translate(0.5 0.5)" fill="#707070" fill-rule="evenodd" opacity="0.969"/>
+    </g>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(731 549)" clip-path="url(#clip-path)">
+      <g transform="translate(-137 -978)">
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="2" cy="2" r="2" transform="translate(137 978)" fill="#747474"/>
+      </g>
+      <g transform="translate(-132 -978)">
+        <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="2" cy="2" r="2" transform="translate(137 978)" fill="#747474"/>
+      </g>
+      <g transform="translate(-127 -978)">
+        <circle id="Ellipse_3-3" data-name="Ellipse 3" cx="2" cy="2" r="2" transform="translate(137 978)" fill="#747474"/>
+      </g>
+    </g>
+  </g>
+</svg>

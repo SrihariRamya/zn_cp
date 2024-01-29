@@ -1,0 +1,160 @@
+@orange: #ff7700;
+@purple-color: #ffffff;
+@bgBlack: #232323;
+@white: #fff;
+@primary-text: "Nunito", sans-serif;
+
+.ant-table-thead>tr>th {
+	padding: 8px 16px;
+}
+.ant-table-tbody>tr>td {
+	padding: 8px 16px;
+}
+.ant-table {
+	tfoot>tr>th {
+		padding: 8px 16px;
+	}
+	tfoot>tr>td {
+		padding: 8px 16px;
+	}
+}
+
+.ant-table thead>tr>th {
+  font-weight: 700;
+  background: @purple-color !important;
+  color: @white;
+  font-family: @primary-text;
+  font-size: 16px;
+}
+
+.orders-main-table{
+  .ant-tag{
+    white-space: nowrap !important;
+  }
+  .ant-table thead>tr>th {
+    font-weight: 700;
+    background: #fff !important;
+    color: #0B3D60 !important;
+    font-family: @primary-text;
+    font-size: 16px;
+  }
+}
+
+.drawercolumn {
+  .ant-table thead>tr>th {
+    font-weight: 600;
+    background: #f2f2f2 !important;
+    color: #353e4a;
+  }
+}
+
+.ant-table-column-title {
+  position: relative;
+  z-index: 1;
+  flex: none;
+}
+
+.ant-table tbody>tr>td {
+  font-weight: 600;
+  background: @white !important;
+  color: #8993a0;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.ant-table-cell {
+  .ant-checkbox-wrapper {
+    .ant-checkbox-checked {
+      .ant-checkbox-inner {
+        background-color: #0B3D60 !important;
+        border-color: @white !important;
+      }
+    }
+
+    .ant-checkbox-indeterminate {
+      .ant-checkbox-inner {
+        &::after {
+          background-color: @purple-color;
+        }
+      }
+    }
+  }
+}
+
+.product_table,
+.store-grid-table,
+.grid-table {
+  .ant-pagination-item-active a {
+    color: #ffffff;
+  }
+  .variant-tag,.ant-tag {
+    overflow: hidden !important;
+    white-space: normal;
+    text-overflow: ellipsis !important;
+  }
+
+}
+
+.ant-table-pagination-right {
+  display: flex;
+  justify-content: center !important;
+}
+
+th.ant-table-cell.ant-table-selection-column {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+}
+
+th.ant-table-cell:nth-last-of-type(1) {
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px;
+}
+
+.ant-pagination-item-active {
+  border-radius: 50px;
+  border: none !important;
+  color: #ffffff;
+  font-size: 10px;
+  height: 32px;
+
+  a {
+    height: 32px;
+    color: #ffffff !important;
+  }
+}
+
+.ant-pagination-item {
+  a{
+    text-decoration: none;
+  }
+  border-radius: 50px;
+  border: 2px white;
+  font-size: 10px;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  font-size: 7px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 1px #ffffff;
+  height: 32px;
+  width: 32px;
+  color: gray;
+
+  .ant-pagination-item-container {
+    font-size: 4px;
+  }
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-search {
+  font-size: 10px;
+  bottom: auto !important;
+  top: auto !important;
+}
+
+.ant-pagination-prev,
+.ant-pagination-next {
+  margin-right: 17px;
+  margin-left: 10px;
+}

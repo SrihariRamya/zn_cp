@@ -1,0 +1,90 @@
+.settings .color-picker{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.settings .card .style-properties{
+    max-height: calc(100vh - 120px) !important;
+    overflow-y: auto;
+}
+.settings table {
+    width: 100%;
+    text-align: left;
+    border-radius: 2px 2px 0 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.settings table thead > tr > th {
+    position: relative;
+    color: #000000d9;
+    font-weight: 500;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    transition: background .3s ease;
+}
+.settings table thead > tr > th,
+.settings table tbody > tr > td{
+    position: relative;
+    padding: 5px 10px;
+    overflow-wrap: break-word;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    border-right: 1px solid rgba(0,0,0,.06);
+    width: 50%;
+    transition: background .3s;
+}
+.settings table tbody > tr > td input,
+.settings table tbody > tr > td input:focus,
+.settings table tbody > tr > td .ant-input-number,
+.settings table tbody > tr > td .ant-input-number-focused,
+.settings table tbody > tr > td .ant-input-number:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.settings .anticon > svg {
+    width: auto;
+}
+.settings .ellipse {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+  .editor-section > .icon, .editor-row > .icon, .editor-column > .icon  {
+    display: none;
+  }
+  .editor-section .icon,.editor-row .icon, .editor-column .icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    right: -5px;
+    top: 0px;
+  }
+  .editor-section .icon svg, .editor-row .icon svg, .editor-column .icon svg {
+    height: 100%;
+    width: 100%;
+  }
+  .editor-column .icon {
+    border: none;
+  }
+  .editor-section, .editor-row, .editor-column{
+    position: relative;
+    min-height: 17px;
+    border: 1.5px dashed transparent;
+    transition: all 0.2s ease-out;
+  }.editor-section.show{
+    border: 1.5px dashed #009EFF;
+  }
+  .editor-row.show {
+    border: 1.5px dashed #68B984;
+  }
+  .editor-column.show {
+    border: 1.5px dashed #FFD93D;
+  }
+  .dynamic-app .editor-row, .dynamic-app .editor-column {
+    border-color: transparent !important;
+  }
+  .dynamic-app .icon {
+    display: none !important;
+  }

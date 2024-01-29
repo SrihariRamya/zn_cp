@@ -1,0 +1,55 @@
+.clic-enquiry-container {
+  .ant-select {
+    width: 100%;
+    font-weight: 600;
+    color: #232323;
+    .ant-select-selector {
+        border-radius: 0 !important;
+        .ant-select-selection-item-content {
+          .product-name-checkbox {
+            display: none;
+          }
+        }
+    }
+    .ant-select-selection-overflow {
+      overflow-y: auto;
+      height: 30px;
+      &::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+        background-color: #c5c5c5;
+        border-radius: 7px;
+       }
+    }
+  }
+  .date-level-filter, .product-level-filter {
+    margin-left: 10px;
+    width: 90%;
+  }
+  .product-level-filter {
+    .ant-btn {
+      width: 95%;
+      text-align: left;
+    }
+  }
+  .download-btn {
+    background: #008080!important;
+    color: #fff !important;
+    border-color: #008080 !important;
+  }
+}
+
+.product-name-checkbox {
+  float: right;
+}
+
+.product-level-select {
+  .ant-select-item-option-state {
+    display: none;
+  }
+}
+
+.filter-icon {
+  vertical-align: sub;
+  margin-right: 3px;
+}

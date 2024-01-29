@@ -1,0 +1,22 @@
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="razorpay-glyph 6" filter="url(#filter0_d_1488_13170)">
+<rect x="5" y="4" width="58" height="58" rx="8" fill="white"/>
+<rect x="4.925" y="3.925" width="58.15" height="58.15" rx="8.075" stroke="#CCCCCC" stroke-width="0.15"/>
+<g id="Group">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M32.1513 27.8065L30.7285 33.0627L38.8848 27.7793L33.5379 47.7168H38.9754L46.8598 18.2637" fill="#3395FF"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M23.3608 39.3434L21.1133 47.7172H32.233L36.7823 30.6797L23.3698 39.3344" fill="#072654"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1488_13170" x="0.849609" y="0.849609" width="66.3008" height="66.3008" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0431373 0 0 0 0 0.239216 0 0 0 0 0.376471 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1488_13170"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1488_13170" result="shape"/>
+</filter>
+</defs>
+</svg>

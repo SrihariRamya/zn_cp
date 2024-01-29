@@ -1,0 +1,165 @@
+#!/bin/bash
+startDeploy()
+{
+# Create a new task definition for this build
+
+sed -e "s;GROUP_NAME;${GIT_BRANCH};g" ${JSON_FILE}.json > ${JSON_FILE}-${BUILD_NUMBER}.json
+
+sed -e "s;task_role;${TASK_ROLE};g" ${JSON_FILE}-${BUILD_NUMBER}.json > ${JSON_FILE}-${BUILD_NUMBER}-v1.json 
+
+sed -e "s;45;${CPU};g" ${JSON_FILE}-${BUILD_NUMBER}-v1.json > ${JSON_FILE}-${BUILD_NUMBER}-v2.json
+
+sed -e "s;46;${MEMORY};g" ${JSON_FILE}-${BUILD_NUMBER}-v2.json > ${JSON_FILE}-${BUILD_NUMBER}-v3.json
+
+sed -e "s;47;${MEMORYRESERVE};g" ${JSON_FILE}-${BUILD_NUMBER}-v3.json > ${JSON_FILE}-${BUILD_NUMBER}-v4.json
+
+sed -e "s;GIT_COMMIT;${IMAGE_VERSION};g" ${JSON_FILE}-${BUILD_NUMBER}-v4.json > ${JSON_FILE}-${BUILD_NUMBER}-v5.json
+
+sed -e "s;tenant_config_secret_name;${TENANT_CONFIG_SECRET_NAME};g" ${JSON_FILE}-${BUILD_NUMBER}-v5.json > ${JSON_FILE}-${BUILD_NUMBER}.json
+
+cat ${JSON_FILE}-${BUILD_NUMBER}.json
+
+aws ecs register-task-definition --family ${TASK_FAMILY} --task-role-arn arn:aws:iam::603321723110:role/${TASK_ROLE} --cli-input-json file://${JSON_FILE}-${BUILD_NUMBER}.json --region ap-south-1 --profile zupain-new
+# Update the service with the new task definition and desired count
+TASK_REVISION=`aws ecs describe-task-definition --task-definition ${TASK_FAMILY} --region ap-south-1 --profile zupain-new | egrep "revision" | tr "/" " " | awk '{print $2}' | sed 's/"$//'`
+echo $TASK_REVISION
+DESIRED_COUNT=`aws ecs describe-services --cluster ${CLUSTER} --services ${SERVICE_NAME}  --region ap-south-1 --profile zupain-new | egrep "desiredCount" | tr "/" " " | awk '{print $2}' | sed 's/,$//'`
+echo $DESIRED_COUNT
+aws ecs update-service --cluster ${CLUSTER} --service ${SERVICE_NAME} --desired-count 1 --task-definition ${TASK_FAMILY} --force-new-deployment --region ap-south-1 --profile zupain-new
+
+# Jenkins Job wait until service is avaliable in cluster
+aws ecs wait services-stable --cluster ${CLUSTER} --services ${SERVICE_NAME} --region ap-south-1 --profile zupain-new
+if [ $? -eq 0 ]; then
+echo "Build got deployed successfully"
+else
+echo "Build failed"
+exit 1
+fi
+rm -rf ${JSON_FILE}-${BUILD_NUMBER}.json
+rm -rf ${JSON_FILE}-new-${BUILD_NUMBER}.json
+}
+
+startDevDeploy()
+{
+# Create a new task definition for this build
+sed -e "s;GROUP_NAME;${GIT_BRANCH};g" ${JSON_FILE}.json > ${JSON_FILE}-${BUILD_NUMBER}.json
+
+sed -e "s;task_role;${TASK_ROLE};g" ${JSON_FILE}-${BUILD_NUMBER}.json > ${JSON_FILE}-${BUILD_NUMBER}-v1.json 
+
+sed -e "s;45;${CPU};g" ${JSON_FILE}-${BUILD_NUMBER}-v1.json > ${JSON_FILE}-${BUILD_NUMBER}-v2.json
+
+sed -e "s;46;${MEMORY};g" ${JSON_FILE}-${BUILD_NUMBER}-v2.json > ${JSON_FILE}-${BUILD_NUMBER}-v3.json
+
+sed -e "s;47;${MEMORYRESERVE};g" ${JSON_FILE}-${BUILD_NUMBER}-v3.json > ${JSON_FILE}-${BUILD_NUMBER}-v4.json
+
+sed -e "s;GIT_COMMIT;${IMAGE_VERSION};g" ${JSON_FILE}-${BUILD_NUMBER}-v4.json > ${JSON_FILE}-${BUILD_NUMBER}-v5.json
+
+sed -e "s;tenant_config_secret_name;${TENANT_CONFIG_SECRET_NAME};g" ${JSON_FILE}-${BUILD_NUMBER}-v5.json > ${JSON_FILE}-${BUILD_NUMBER}.json
+
+
+cat ${JSON_FILE}-${BUILD_NUMBER}.json
+
+aws ecs register-task-definition --family ${TASK_FAMILY} --task-role-arn arn:aws:iam::603321723110:role/${TASK_ROLE} --cli-input-json file://${JSON_FILE}-${BUILD_NUMBER}.json --region ap-south-1 --profile zupain-new
+# Update the service with the new task definition and desired count
+TASK_REVISION=`aws ecs describe-task-definition --task-definition ${TASK_FAMILY} --region ap-south-1 --profile zupain-new | egrep "revision" | tr "/" " " | awk '{print $2}' | sed 's/"$//'`
+echo $TASK_REVISION
+DESIRED_COUNT=`aws ecs describe-services --cluster ${CLUSTER} --services ${SERVICE_NAME}  --region ap-south-1 --profile zupain-new | egrep "desiredCount" | tr "/" " " | awk '{print $2}' | sed 's/,$//'`
+echo $DESIRED_COUNT
+aws ecs update-service --cluster ${CLUSTER} --service ${SERVICE_NAME} --desired-count 1 --task-definition ${TASK_FAMILY} --force-new-deployment --region ap-south-1 --profile zupain-new
+
+# Jenkins Job wait until service is avaliable in cluster
+aws ecs wait services-stable --cluster ${CLUSTER} --services ${SERVICE_NAME} --region ap-south-1 --profile zupain-new
+if [ $? -eq 0 ]; then
+echo "Build got deployed successfully"
+else
+echo "Build failed"
+exit 1
+fi
+rm -rf ${JSON_FILE}-${BUILD_NUMBER}.json
+rm -rf ${JSON_FILE}-new-${BUILD_NUMBER}.json
+}  
+
+master()
+{
+ SERVICE_NAME="zupain-cp-sdb"
+ TASK_FAMILY="zupain-cp"
+ TASK_ROLE="prod-ecs"
+ CLUSTER="production"
+ START_CMD="start"
+ JSON_FILE="prod-zupain-cp"
+ TENANT_CONFIG_SECRET_NAME="$1"
+ CPU=1000
+ MEMORY=1000
+ MEMORYRESERVE=900
+} 
+
+qa()
+{
+ SERVICE_NAME="qa-zupain-cp"
+ TASK_FAMILY="zupain-cp"
+ TASK_ROLE="dev-ecs"
+ CLUSTER="development"
+ START_CMD="start"
+ JSON_FILE="zupain-cp"
+ TENANT_CONFIG_SECRET_NAME="$1"
+ CPU=200
+ MEMORY=300
+ MEMORYRESERVE=200
+}
+
+preprod()
+{
+ SERVICE_NAME="preprod-zupain-cp"
+ TASK_FAMILY="zupain-cp"
+ TASK_ROLE="dev-ecs"
+ CLUSTER="uat"
+ START_CMD="start"
+ JSON_FILE="zupain-cp"
+ TENANT_CONFIG_SECRET_NAME="$1"
+ CPU=200
+ MEMORY=300
+ MEMORYRESERVE=200
+}
+
+staging()
+{
+ SERVICE_NAME="staging-zupain-cp"
+ TASK_FAMILY="zupain-cp"
+ TASK_ROLE="uat-ecs"
+ CLUSTER="staging"
+ START_CMD="start"
+ JSON_FILE="zupain-cp"
+ TENANT_CONFIG_SECRET_NAME="$1"
+ CPU=200
+ MEMORY=300
+ MEMORYRESERVE=200
+}
+
+development()
+{
+  SERVICE_NAME="dev-zupain-cp"
+  TASK_FAMILY="zupain-cp"
+  TASK_ROLE="dev-ecs"
+  CLUSTER="development"
+  START_CMD="start"
+  JSON_FILE="zupain-cp"
+  TENANT_CONFIG_SECRET_NAME="$1"
+  CPU=200
+  MEMORY=700
+  MEMORYRESERVE=500
+}
+
+
+if [[ "$GIT_BRANCH" == "qa" || "$GIT_BRANCH" == "preprod" || "$GIT_BRANCH" == "staging" || "$GIT_BRANCH" == "development" ]];
+then
+IMAGE_VERSION="${GIT_BRANCH}-${BUILD_NUMBER}"
+$GIT_BRANCH
+startDevDeploy
+elif [[ "$GIT_BRANCH" == "master" ]];
+then
+IMAGE_VERSION="${GIT_BRANCH}-${BUILD_NUMBER}"
+$GIT_BRANCH
+startDeploy
+else
+ echo "Skipping a deployment because this branch is not permitted for docker deployment: ${GIT_BRANCH}"
+fi

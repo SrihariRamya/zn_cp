@@ -1,0 +1,271 @@
+.grid-splits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  overflow: hidden;
+  height: calc(100vh - 156px);
+  &.drawer {
+    height: calc(100vh - 55px);
+    .demo-infinite-container {
+      height: calc(100vh - 192px)!important;
+    }
+  }
+  .productlist-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 8px 0px;
+    span {
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+  .box__content {
+    background: #fff;
+
+    .demo-infinite-container {
+      &.demo-infinite-div{
+        height: calc(100vh - 240px) !important;
+      }
+      height: calc(98vh - 300px);
+      overflow: auto;
+      margin-right: -10px;
+      &:hover {
+        &::-webkit-scrollbar-thumb {
+          background: #eee;
+          &:hover {
+            background: #e1e1e1;
+          }
+        }
+      }
+      &::-webkit-scrollbar {
+        width: 8px;
+        transition: all 0.3s linear;
+      }
+      &::-webkit-scrollbar-track {
+        border: 1px solid transparent;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 10px;
+      }
+    }
+
+    padding-bottom: 20px;
+  }
+}
+
+p {
+  margin: 0;
+  font-weight: 600;
+}
+
+i {
+  font-size: 12px;
+}
+
+.box__content>.ant-list {
+  margin-bottom: 20px;
+}
+
+.custom-list {
+  padding: 0;
+  position: relative;
+
+  >div {
+    padding: 8px 0;
+  }
+
+  >input[type="radio"] {
+    position: absolute;
+    inset: 0 0 0 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 80;
+    cursor: pointer;
+
+    +div {
+      >div:first-child {
+        margin-right: 12px;
+        flex: 1;
+        margin-bottom: 0;
+      }
+    }
+
+    &:disabled {
+      cursor: none;
+    }
+
+    &:checked {
+      cursor: pointer;
+    }
+
+    &:checked+div {
+
+      div,
+      b {
+        color: #005cb2 !important;
+      }
+    }
+
+    &:disabled+div {
+
+      div,
+      b {
+        color: rgba(0, 0, 0, .45);
+      }
+    }
+  }
+}
+
+.ant-tag {
+  z-index: 99;
+}
+
+.not-found {
+  background-color: #35c759;
+}
+.ant-switch-checked {
+  background-color: #35c759;
+}
+
+.ant-btn-circle {
+  height: 32px !important;
+  z-index: 81;
+  margin-left: .5rem;
+
+  &:disabled {
+    .anticon-loading {
+      color: #005cb2 !important;
+    }
+  }
+}
+
+.flex-center {
+  text-align: right;
+}
+
+.inventory-right-list {
+  padding-right: 15px;
+}
+
+.inventory-list {
+  padding-left: 15px;
+  li {
+    >div:nth-child(1) {
+      width: 100%;
+    }
+
+    >div:nth-child(2) {
+      flex: 1;
+      padding: 0 1rem;
+
+      >p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .invprod-name {
+    font-weight: 600;
+    margin-left: 15px;
+  }
+}
+
+.stock-area {
+  display: flex;
+  align-items: baseline;
+}
+
+.add-button-pad.ant-input-affix-wrapper > input.ant-input {
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.add-button-pad.ant-input-affix-wrapper {
+  padding: 0 0px !important;
+  border-radius: 5px;
+}
+
+.invError {
+  .ant-form-item-explain-error {
+    top: 38px !important;
+  }
+}
+
+.int-form-number {
+  max-width: 130px;
+  max-height: 40px;
+  margin-bottom: 0px;
+}
+.inventory-subtract-input {
+  width: 80px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .inventory-header-box {
+    display: none !important;
+  }
+  .search-container.inventory-search-box > div {
+    margin: 5px 0px;
+  }
+  .add-invt-table-split {
+    overflow-x: scroll;
+    width: 100vw;
+    padding: 0 10px;
+    .addinvprod-box {
+      width: 100vw;
+    }
+    .add-button-pad.ant-input-affix-wrapper > input.ant-input {
+      padding: 20px;
+    }
+    .inventory-list-add-btn {
+      position: absolute;
+    }
+  }
+  .inventory-list {
+    .ant-list-items {
+      width: 500px;
+    }
+    .ant-select-selector {
+      width: 100px !important;
+    }
+    .add-button-pad {
+      width: 100px !important;
+    }
+    .ant-tag {
+      width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .inventory-subtract-input {
+    width: 60px !important;
+  }
+}
+
+.variant-select {
+  width: 9rem;
+}
+
+.variant-attribute {
+  white-space: break-spaces;
+}
+
+.inventory-prod {
+  padding-top: 10px !important;
+}
+
+
+.demo-loading-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.invt-select {
+  padding-left: 10px;
+  .ant-select-selection-search-input {
+    font-size: 14px !important;
+  }
+}

@@ -1,0 +1,175 @@
+
+@primary-text: "Nunito", sans-serif;
+
+.kanban-container{
+    font-family: @primary-text;
+.chat-card-container {
+    display: flex;
+    justify-content: center;
+
+    .orders-amt {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .card-flex-bwn{
+        font-family: @primary-text;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .card-menu-icon{
+        cursor: pointer;
+    }
+    .ant-card {
+        width: 284px;
+        border-radius: 8px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border: 1px solid #ccc;
+    }
+}
+
+.cards-container {
+    width: 300px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    margin-top: 75px;
+}
+
+.card-title {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    position: relative;
+
+    span.ant-tag.ant-dropdown-trigger.bills {
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+}
+
+.ant-dropdown.ant-dropdown-placement-left {
+    position: absolute;
+    bottom: 0;
+}
+
+.card-list-container {
+    max-height: 100vh;
+    overflow: auto;
+    width: 300px;
+    min-height: 133px;
+
+    .ant-card-body {
+        padding: 10px 0 10px 10px;
+    }
+
+    .order-id {
+        text-decoration: underline;
+    }
+}
+
+.card-list-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card-download {
+    font-size: 12px;
+}
+
+.ant-dropdown.card-order-download.ant-dropdown-placement-left {
+    position: absolute;
+    bottom: 0;
+}
+
+.card-menu-download {
+    background: #00000000;
+    z-index: 0 !important;
+}
+
+.order-cancel-req {
+    opacity: 1;
+    font-size: 14px;
+    background: #F841411A;
+    color: '#F84141';
+    border-radius: 10px;
+    display: inline-block;
+    width: fit-content;
+    margin: 0 !important;
+    padding: 7px !important;
+    cursor: pointer;
+
+    span.ant-dropdown-trigger {
+        gap: 5px;
+        margin: 0;
+        display: flex;
+    }
+}
+
+.order_dropdown_kanban {
+    border: 0px !important;
+    border-radius: 2px !important;
+}
+.card-order-download {
+.ant-dropdown-menu {
+    padding: 4px !important;
+}
+}
+.drag-drop{
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 100%;
+    gap: 5px;
+    align-items: baseline;
+}
+
+}
+.drop-down-kandan{
+    font-family: "Nunito", sans-serif;
+    padding: 6px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: #FFFF;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    .select-range{
+        width: 300px;
+    }
+}
+.notify-layout{
+.card-menus{
+    .ant-dropdown{
+        margin: 0 !important;
+    }
+}
+}
+.shiprocket-btn{
+    margin-right: 32px;
+    .ant-btn{
+        font-family: @primary-text;
+    }
+}
+@media screen and (max-width: 768px) {
+    .drop-down-kandan {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 53px;
+        .select-range {
+            width: 140px;
+            .ant-select-selector {
+                width: 150px;
+            }
+        }
+    }
+    .kanban-container .cards-container {
+        margin-top: 100px;
+    }
+    .shiprocket-btn{
+        margin-right: 17px;}
+}
